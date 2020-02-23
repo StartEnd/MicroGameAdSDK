@@ -13,8 +13,6 @@
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* NOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* NOAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* NOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* NOViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -24,6 +22,28 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CF24A236FA9B510EE8381FBC /* Pods_MGADENSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D9857082163E2BF49AB5D4 /* Pods_MGADENSDK_Example.framework */; };
+		E41806AD2402471200338C5A /* MGNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E418068C2402471000338C5A /* MGNetManager.m */; };
+		E41806AE2402471200338C5A /* MGFBRewardAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806902402471000338C5A /* MGFBRewardAdController.m */; };
+		E41806AF2402471200338C5A /* MGADManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806952402471000338C5A /* MGADManager.m */; };
+		E41806B02402471200338C5A /* MGADStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806962402471000338C5A /* MGADStrategy.m */; };
+		E41806B12402471200338C5A /* MGInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806982402471000338C5A /* MGInterstitialAd.m */; };
+		E41806B22402471200338C5A /* MGGRewardAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806992402471100338C5A /* MGGRewardAdController.m */; };
+		E41806B32402471200338C5A /* MGADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E418069C2402471100338C5A /* MGADHelper.m */; };
+		E41806B42402471200338C5A /* MGBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A02402471100338C5A /* MGBannerAdView.m */; };
+		E41806B52402471200338C5A /* MGADENSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A22402471100338C5A /* MGADENSDK.m */; };
+		E41806B62402471200338C5A /* MGFBInsertAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A42402471100338C5A /* MGFBInsertAdController.m */; };
+		E41806B72402471200338C5A /* MGRewardedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A52402471100338C5A /* MGRewardedAd.m */; };
+		E41806B82402471200338C5A /* MGAdSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A62402471100338C5A /* MGAdSize.m */; };
+		E41806B92402471200338C5A /* MGGInsertAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A72402471100338C5A /* MGGInsertAdController.m */; };
+		E41806BA2402471200338C5A /* MGAdReward.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806AB2402471200338C5A /* MGAdReward.m */; };
+		E41806BB2402471200338C5A /* MGAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806AC2402471200338C5A /* MGAdController.m */; };
+		E41806BF2402471F00338C5A /* NSObject+WHC_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806BE2402471F00338C5A /* NSObject+WHC_Model.m */; };
+		E41806CC2402478600338C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C22402478500338C5A /* ViewController.m */; };
+		E41806CD2402478600338C5A /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C32402478500338C5A /* CustomViewController.m */; };
+		E41806CE2402478600338C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C82402478500338C5A /* AppDelegate.m */; };
+		E41806CF2402478600338C5A /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C92402478500338C5A /* BannerViewController.m */; };
+		E41806D02402478600338C5A /* InsertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806CA2402478600338C5A /* InsertViewController.m */; };
+		E41806D12402478600338C5A /* RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806CB2402478600338C5A /* RewardViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +58,7 @@
 
 /* Begin PBXFileReference section */
 		14ABD1791AF9A29E12EC977B /* Pods-MGADENSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGADENSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
-		550FA39C2ED2CF76F7E0484D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		550FA39C2ED2CF76F7E0484D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* MGADENSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGADENSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,10 +67,6 @@
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* MGADENSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MGADENSDK-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* NOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* NOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* NOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NOViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* NOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NOViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* MGADENSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGADENSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -65,8 +81,55 @@
 		8FC91863841682AC63A1F335 /* Pods-MGADENSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGADENSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD73A4C74F2423316FE00E3D /* Pods_MGADENSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGADENSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D9857082163E2BF49AB5D4 /* Pods_MGADENSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGADENSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5D7A5788465B2648AB618C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		F76C71047FFE24CB360EB325 /* MGADENSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MGADENSDK.podspec; path = ../MGADENSDK.podspec; sourceTree = "<group>"; };
+		E418068C2402471000338C5A /* MGNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGNetManager.m; path = ../MGADENSDK/Classes/MGNetManager.m; sourceTree = "<group>"; };
+		E418068D2402471000338C5A /* MGADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADManager.h; path = ../MGADENSDK/Classes/MGADManager.h; sourceTree = "<group>"; };
+		E418068E2402471000338C5A /* MGBannerAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGBannerAdView.h; path = ../MGADENSDK/Classes/MGBannerAdView.h; sourceTree = "<group>"; };
+		E418068F2402471000338C5A /* MGADENSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADENSDK.h; path = ../MGADENSDK/Classes/MGADENSDK.h; sourceTree = "<group>"; };
+		E41806902402471000338C5A /* MGFBRewardAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGFBRewardAdController.m; path = ../MGADENSDK/Classes/MGFBRewardAdController.m; sourceTree = "<group>"; };
+		E41806912402471000338C5A /* MGADProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADProtocol.h; path = ../MGADENSDK/Classes/MGADProtocol.h; sourceTree = "<group>"; };
+		E41806922402471000338C5A /* MGGRewardAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGRewardAdController.h; path = ../MGADENSDK/Classes/MGGRewardAdController.h; sourceTree = "<group>"; };
+		E41806932402471000338C5A /* MGADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADHelper.h; path = ../MGADENSDK/Classes/MGADHelper.h; sourceTree = "<group>"; };
+		E41806942402471000338C5A /* MGADStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADStrategy.h; path = ../MGADENSDK/Classes/MGADStrategy.h; sourceTree = "<group>"; };
+		E41806952402471000338C5A /* MGADManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADManager.m; path = ../MGADENSDK/Classes/MGADManager.m; sourceTree = "<group>"; };
+		E41806962402471000338C5A /* MGADStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADStrategy.m; path = ../MGADENSDK/Classes/MGADStrategy.m; sourceTree = "<group>"; };
+		E41806972402471000338C5A /* MGAdReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdReward.h; path = ../MGADENSDK/Classes/MGAdReward.h; sourceTree = "<group>"; };
+		E41806982402471000338C5A /* MGInterstitialAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGInterstitialAd.m; path = ../MGADENSDK/Classes/MGInterstitialAd.m; sourceTree = "<group>"; };
+		E41806992402471100338C5A /* MGGRewardAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGGRewardAdController.m; path = ../MGADENSDK/Classes/MGGRewardAdController.m; sourceTree = "<group>"; };
+		E418069A2402471100338C5A /* MGFBRewardAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFBRewardAdController.h; path = ../MGADENSDK/Classes/MGFBRewardAdController.h; sourceTree = "<group>"; };
+		E418069B2402471100338C5A /* MGGInsertAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGInsertAdController.h; path = ../MGADENSDK/Classes/MGGInsertAdController.h; sourceTree = "<group>"; };
+		E418069C2402471100338C5A /* MGADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADHelper.m; path = ../MGADENSDK/Classes/MGADHelper.m; sourceTree = "<group>"; };
+		E418069D2402471100338C5A /* MGADDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADDefines.h; path = ../MGADENSDK/Classes/MGADDefines.h; sourceTree = "<group>"; };
+		E418069E2402471100338C5A /* MGFBInsertAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFBInsertAdController.h; path = ../MGADENSDK/Classes/MGFBInsertAdController.h; sourceTree = "<group>"; };
+		E418069F2402471100338C5A /* MGAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdSize.h; path = ../MGADENSDK/Classes/MGAdSize.h; sourceTree = "<group>"; };
+		E41806A02402471100338C5A /* MGBannerAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGBannerAdView.m; path = ../MGADENSDK/Classes/MGBannerAdView.m; sourceTree = "<group>"; };
+		E41806A12402471100338C5A /* MGNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNetManager.h; path = ../MGADENSDK/Classes/MGNetManager.h; sourceTree = "<group>"; };
+		E41806A22402471100338C5A /* MGADENSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADENSDK.m; path = ../MGADENSDK/Classes/MGADENSDK.m; sourceTree = "<group>"; };
+		E41806A32402471100338C5A /* MGRewardedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGRewardedAd.h; path = ../MGADENSDK/Classes/MGRewardedAd.h; sourceTree = "<group>"; };
+		E41806A42402471100338C5A /* MGFBInsertAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGFBInsertAdController.m; path = ../MGADENSDK/Classes/MGFBInsertAdController.m; sourceTree = "<group>"; };
+		E41806A52402471100338C5A /* MGRewardedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGRewardedAd.m; path = ../MGADENSDK/Classes/MGRewardedAd.m; sourceTree = "<group>"; };
+		E41806A62402471100338C5A /* MGAdSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdSize.m; path = ../MGADENSDK/Classes/MGAdSize.m; sourceTree = "<group>"; };
+		E41806A72402471100338C5A /* MGGInsertAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGGInsertAdController.m; path = ../MGADENSDK/Classes/MGGInsertAdController.m; sourceTree = "<group>"; };
+		E41806A82402471100338C5A /* MGInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGInterstitialAd.h; path = ../MGADENSDK/Classes/MGInterstitialAd.h; sourceTree = "<group>"; };
+		E41806A92402471100338C5A /* MGNetAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNetAPI.h; path = ../MGADENSDK/Classes/MGNetAPI.h; sourceTree = "<group>"; };
+		E41806AA2402471200338C5A /* MGAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdController.h; path = ../MGADENSDK/Classes/MGAdController.h; sourceTree = "<group>"; };
+		E41806AB2402471200338C5A /* MGAdReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdReward.m; path = ../MGADENSDK/Classes/MGAdReward.m; sourceTree = "<group>"; };
+		E41806AC2402471200338C5A /* MGAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdController.m; path = ../MGADENSDK/Classes/MGAdController.m; sourceTree = "<group>"; };
+		E41806BD2402471F00338C5A /* NSObject+WHC_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHC_Model.h"; sourceTree = "<group>"; };
+		E41806BE2402471F00338C5A /* NSObject+WHC_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHC_Model.m"; sourceTree = "<group>"; };
+		E41806C02402478500338C5A /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
+		E41806C12402478500338C5A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E41806C22402478500338C5A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E41806C32402478500338C5A /* CustomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomViewController.m; sourceTree = "<group>"; };
+		E41806C42402478500338C5A /* RewardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RewardViewController.h; sourceTree = "<group>"; };
+		E41806C52402478500338C5A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E41806C62402478500338C5A /* CustomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomViewController.h; sourceTree = "<group>"; };
+		E41806C72402478500338C5A /* InsertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InsertViewController.h; sourceTree = "<group>"; };
+		E41806C82402478500338C5A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E41806C92402478500338C5A /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
+		E41806CA2402478600338C5A /* InsertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertViewController.m; sourceTree = "<group>"; };
+		E41806CB2402478600338C5A /* RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardViewController.m; sourceTree = "<group>"; };
+		F5D7A5788465B2648AB618C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		F76C71047FFE24CB360EB325 /* MGADENSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MGADENSDK.podspec; path = ../MGADENSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,11 +195,19 @@
 		6003F593195388D20070C39A /* Example for MGADENSDK */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* NOAppDelegate.h */,
-				6003F59D195388D20070C39A /* NOAppDelegate.m */,
+				E41806C52402478500338C5A /* AppDelegate.h */,
+				E41806C82402478500338C5A /* AppDelegate.m */,
+				E41806C02402478500338C5A /* BannerViewController.h */,
+				E41806C92402478500338C5A /* BannerViewController.m */,
+				E41806C62402478500338C5A /* CustomViewController.h */,
+				E41806C32402478500338C5A /* CustomViewController.m */,
+				E41806C72402478500338C5A /* InsertViewController.h */,
+				E41806CA2402478600338C5A /* InsertViewController.m */,
+				E41806C42402478500338C5A /* RewardViewController.h */,
+				E41806CB2402478600338C5A /* RewardViewController.m */,
+				E41806C12402478500338C5A /* ViewController.h */,
+				E41806C22402478500338C5A /* ViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* NOViewController.h */,
-				6003F5A6195388D20070C39A /* NOViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -178,6 +249,40 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				E41806BC2402471F00338C5A /* WHC_ModelKit */,
+				E41806AA2402471200338C5A /* MGAdController.h */,
+				E41806AC2402471200338C5A /* MGAdController.m */,
+				E418069D2402471100338C5A /* MGADDefines.h */,
+				E418068F2402471000338C5A /* MGADENSDK.h */,
+				E41806A22402471100338C5A /* MGADENSDK.m */,
+				E41806932402471000338C5A /* MGADHelper.h */,
+				E418069C2402471100338C5A /* MGADHelper.m */,
+				E418068D2402471000338C5A /* MGADManager.h */,
+				E41806952402471000338C5A /* MGADManager.m */,
+				E41806912402471000338C5A /* MGADProtocol.h */,
+				E41806972402471000338C5A /* MGAdReward.h */,
+				E41806AB2402471200338C5A /* MGAdReward.m */,
+				E418069F2402471100338C5A /* MGAdSize.h */,
+				E41806A62402471100338C5A /* MGAdSize.m */,
+				E41806942402471000338C5A /* MGADStrategy.h */,
+				E41806962402471000338C5A /* MGADStrategy.m */,
+				E418068E2402471000338C5A /* MGBannerAdView.h */,
+				E41806A02402471100338C5A /* MGBannerAdView.m */,
+				E418069E2402471100338C5A /* MGFBInsertAdController.h */,
+				E41806A42402471100338C5A /* MGFBInsertAdController.m */,
+				E418069A2402471100338C5A /* MGFBRewardAdController.h */,
+				E41806902402471000338C5A /* MGFBRewardAdController.m */,
+				E418069B2402471100338C5A /* MGGInsertAdController.h */,
+				E41806A72402471100338C5A /* MGGInsertAdController.m */,
+				E41806922402471000338C5A /* MGGRewardAdController.h */,
+				E41806992402471100338C5A /* MGGRewardAdController.m */,
+				E41806A82402471100338C5A /* MGInterstitialAd.h */,
+				E41806982402471000338C5A /* MGInterstitialAd.m */,
+				E41806A92402471100338C5A /* MGNetAPI.h */,
+				E41806A12402471100338C5A /* MGNetManager.h */,
+				E418068C2402471000338C5A /* MGNetManager.m */,
+				E41806A32402471100338C5A /* MGRewardedAd.h */,
+				E41806A52402471100338C5A /* MGRewardedAd.m */,
 				F76C71047FFE24CB360EB325 /* MGADENSDK.podspec */,
 				F5D7A5788465B2648AB618C5 /* README.md */,
 				550FA39C2ED2CF76F7E0484D /* LICENSE */,
@@ -194,6 +299,16 @@
 				6F15A05EB3CAF3A5BB5368F6 /* Pods-MGADENSDK_Tests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		E41806BC2402471F00338C5A /* WHC_ModelKit */ = {
+			isa = PBXGroup;
+			children = (
+				E41806BD2402471F00338C5A /* NSObject+WHC_Model.h */,
+				E41806BE2402471F00338C5A /* NSObject+WHC_Model.m */,
+			);
+			name = WHC_ModelKit;
+			path = ../MGADENSDK/Classes/WHC_ModelKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,10 +358,13 @@
 		6003F582195388D10070C39A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				CLASSPREFIX = NO;
+				CLASSPREFIX = "";
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = baixiaosheng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = 2LFJGTZC39;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -257,6 +375,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -367,9 +486,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* NOAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* NOViewController.m in Sources */,
+				E41806CE2402478600338C5A /* AppDelegate.m in Sources */,
+				E41806AF2402471200338C5A /* MGADManager.m in Sources */,
+				E41806AE2402471200338C5A /* MGFBRewardAdController.m in Sources */,
+				E41806BB2402471200338C5A /* MGAdController.m in Sources */,
+				E41806BA2402471200338C5A /* MGAdReward.m in Sources */,
+				E41806B12402471200338C5A /* MGInterstitialAd.m in Sources */,
+				E41806BF2402471F00338C5A /* NSObject+WHC_Model.m in Sources */,
+				E41806B62402471200338C5A /* MGFBInsertAdController.m in Sources */,
+				E41806B52402471200338C5A /* MGADENSDK.m in Sources */,
+				E41806B22402471200338C5A /* MGGRewardAdController.m in Sources */,
+				E41806B02402471200338C5A /* MGADStrategy.m in Sources */,
+				E41806B32402471200338C5A /* MGADHelper.m in Sources */,
+				E41806CF2402478600338C5A /* BannerViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				E41806CC2402478600338C5A /* ViewController.m in Sources */,
+				E41806D12402478600338C5A /* RewardViewController.m in Sources */,
+				E41806B92402471200338C5A /* MGGInsertAdController.m in Sources */,
+				E41806CD2402478600338C5A /* CustomViewController.m in Sources */,
+				E41806B42402471200338C5A /* MGBannerAdView.m in Sources */,
+				E41806B72402471200338C5A /* MGRewardedAd.m in Sources */,
+				E41806D02402478600338C5A /* InsertViewController.m in Sources */,
+				E41806B82402471200338C5A /* MGAdSize.m in Sources */,
+				E41806AD2402471200338C5A /* MGNetManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -497,10 +636,17 @@
 			baseConfigurationReference = 8FC91863841682AC63A1F335 /* Pods-MGADENSDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LFJGTZC39;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGADENSDK/MGADENSDK-Prefix.pch";
 				INFOPLIST_FILE = "MGADENSDK/MGADENSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"-ObjC",
+					"\"MGADENSDK\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
@@ -513,10 +659,17 @@
 			baseConfigurationReference = 14ABD1791AF9A29E12EC977B /* Pods-MGADENSDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2LFJGTZC39;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGADENSDK/MGADENSDK-Prefix.pch";
 				INFOPLIST_FILE = "MGADENSDK/MGADENSDK-Info.plist";
 				MODULE_NAME = ExampleApp;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"-ObjC",
+					"\"MGADENSDK\"",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;

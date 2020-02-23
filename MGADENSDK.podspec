@@ -7,8 +7,11 @@
 #
 
 Pod::Spec.new do |s|
+  # 库名称
   s.name             = 'MGADENSDK'
+  # 版本
   s.version          = '0.1.0'
+  # 简介
   s.summary          = 'A short description of MGADENSDK.'
 
 # This description is used to generate tags and improve search results.
@@ -17,19 +20,26 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
+# 开源库描述
   s.description      = <<-DESC
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/baixiaosheng/MGADENSDK'
+  # 开源库地址
+  s.homepage         = 'https://github.com/StartEnd/MicroGameAdSDK'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  # 开源协议
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'baixiaosheng' => '996982027@qq.com' }
-  s.source           = { :git => 'https://github.com/baixiaosheng/MGADENSDK.git', :tag => s.version.to_s }
+  # 开源作者
+  s.author           = { 'StartEnd' => '858965877@qq.com' }
+  #开源库GitHub的路径与tag值，GitHub路径后必须有.git,tag实际就是上面的版本
+  s.source           = { :git => 'https://github.com/StartEnd/MicroGameAdSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  # 开源库最低支持版本
   s.ios.deployment_target = '8.0'
 
+  #源库资源文件
   s.source_files = 'MGADENSDK/Classes/**/*'
   
   # s.resource_bundles = {
@@ -37,6 +47,11 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  # 依赖系统库
+  s.frameworks = 'UIKit', 'Foundation'
+  s.static_framework = true
+  # 开源库依赖库
+  s.dependency 'FBAudienceNetwork'
+  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'GoogleMobileAdsMediationFacebook'
 end
