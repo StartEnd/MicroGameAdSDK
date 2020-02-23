@@ -1,6 +1,0 @@
-framework module Pods_MGADENSDK_Tests {
-  umbrella header "Pods-MGADENSDK_Tests-umbrella.h"
-
-  export *
-  module * { export * }
-}

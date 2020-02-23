@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '0.4.0'
+  s.version          = '0.5.0'
   # 简介
   s.summary          = 'A short description of MGADENSDK.'
 
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # 开源库最低支持版本
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   #源库资源文件
   #s.source_files = 'MGADENSDK/Classes/**/*'
@@ -46,7 +46,7 @@ TODO: Add long description of the pod here.
   #   'MGADENSDK' => ['MGADENSDK/Assets/*.png']
   # }
   # 依赖的自己的Framework
-  s.vendored_frameworks ='MGADENSDK.framework'
+  s.vendored_frameworks ='MGADENSDK/MGADENSDK.framework'
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # 依赖系统库

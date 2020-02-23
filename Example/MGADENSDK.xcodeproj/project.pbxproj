@@ -22,18 +22,12 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		3708FDAF627C08BCF26D8D86 /* Pods_MGADENSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD73A4C74F2423316FE00E3D /* Pods_MGADENSDK_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
-		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
-		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
-		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CF24A236FA9B510EE8381FBC /* Pods_MGADENSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D9857082163E2BF49AB5D4 /* Pods_MGADENSDK_Example.framework */; };
@@ -58,14 +52,12 @@
 		E41806F62402672900338C5A /* NSObject+ALiHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E62402672900338C5A /* NSObject+ALiHUD.m */; };
 		E41806F72402672900338C5A /* WGKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E72402672900338C5A /* WGKeyChain.m */; };
 		E41806F82402672900338C5A /* ALiProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E82402672900338C5A /* ALiProgressHUD.m */; };
-		E418076624026FCA00338C5A /* MGADENSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41806FE2402697200338C5A /* MGADENSDK.framework */; };
-		E418076724026FCA00338C5A /* MGADENSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E41806FE2402697200338C5A /* MGADENSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		E41807DA2402712400338C5A /* MGADDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807B62402712400338C5A /* MGADDefines.h */; };
 		E41807DB2402712400338C5A /* MGADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807B72402712400338C5A /* MGADHelper.m */; };
 		E41807DC2402712400338C5A /* MGAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807B82402712400338C5A /* MGAdController.m */; };
-		E41807DD2402712400338C5A /* MGInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807B92402712400338C5A /* MGInterstitialAd.h */; };
+		E41807DD2402712400338C5A /* MGInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807B92402712400338C5A /* MGInterstitialAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E41807DE2402712400338C5A /* MGRewardedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807BA2402712400338C5A /* MGRewardedAd.m */; };
-		E41807DF2402712400338C5A /* MGAdReward.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807BB2402712400338C5A /* MGAdReward.h */; };
+		E41807DF2402712400338C5A /* MGAdReward.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807BB2402712400338C5A /* MGAdReward.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E41807E02402712400338C5A /* MGNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807BC2402712400338C5A /* MGNetManager.h */; };
 		E41807E12402712400338C5A /* MGNetAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807BD2402712400338C5A /* MGNetAPI.h */; };
 		E41807E22402712400338C5A /* MGADENSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807BE2402712400338C5A /* MGADENSDK.m */; };
@@ -77,7 +69,7 @@
 		E41807E82402712500338C5A /* MGADStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807C42402712400338C5A /* MGADStrategy.m */; };
 		E41807E92402712500338C5A /* MGFBRewardAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807C52402712400338C5A /* MGFBRewardAdController.h */; };
 		E41807EA2402712500338C5A /* MGFBInsertAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807C62402712400338C5A /* MGFBInsertAdController.h */; };
-		E41807EB2402712500338C5A /* MGRewardedAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807C72402712400338C5A /* MGRewardedAd.h */; };
+		E41807EB2402712500338C5A /* MGRewardedAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807C72402712400338C5A /* MGRewardedAd.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E41807EC2402712500338C5A /* MGAdReward.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807C82402712400338C5A /* MGAdReward.m */; };
 		E41807ED2402712500338C5A /* MGInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807C92402712400338C5A /* MGInterstitialAd.m */; };
 		E41807EE2402712500338C5A /* MGADHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807CA2402712400338C5A /* MGADHelper.h */; };
@@ -86,26 +78,19 @@
 		E41807F12402712500338C5A /* MGADManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807CD2402712400338C5A /* MGADManager.m */; };
 		E41807F22402712500338C5A /* MGGInsertAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807CE2402712400338C5A /* MGGInsertAdController.h */; };
 		E41807F32402712500338C5A /* MGAdSize.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807CF2402712400338C5A /* MGAdSize.h */; };
-		E41807F42402712500338C5A /* MGADENSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807D02402712400338C5A /* MGADENSDK.h */; };
+		E41807F42402712500338C5A /* MGADENSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807D02402712400338C5A /* MGADENSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E41807F52402712500338C5A /* MGNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807D12402712400338C5A /* MGNetManager.m */; };
 		E41807F62402712500338C5A /* MGADStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807D22402712400338C5A /* MGADStrategy.h */; };
 		E41807F72402712500338C5A /* MGADProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807D32402712400338C5A /* MGADProtocol.h */; };
 		E41807F82402712500338C5A /* NSObject+WHC_Model.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807D52402712400338C5A /* NSObject+WHC_Model.h */; };
 		E41807F92402712500338C5A /* NSObject+WHC_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807D62402712400338C5A /* NSObject+WHC_Model.m */; };
-		E41807FA2402712500338C5A /* MGBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807D72402712400338C5A /* MGBannerAdView.h */; };
+		E41807FA2402712500338C5A /* MGBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = E41807D72402712400338C5A /* MGBannerAdView.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E41807FB2402712500338C5A /* MGFBInsertAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807D82402712400338C5A /* MGFBInsertAdController.m */; };
 		E41807FC2402712500338C5A /* MGFBRewardAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41807D92402712400338C5A /* MGFBRewardAdController.m */; };
-		E41808002402739500338C5A /* MGADENSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41807FF2402739500338C5A /* MGADENSDK.framework */; };
+		E41808012402752400338C5A /* MGAdReward.m in Headers */ = {isa = PBXBuildFile; fileRef = E41807C82402712400338C5A /* MGAdReward.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = MGADENSDK;
-		};
 		E418075F24026D2300338C5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
@@ -113,28 +98,7 @@
 			remoteGlobalIDString = E41806FD2402697200338C5A;
 			remoteInfo = MGADENSDK;
 		};
-		E418076824026FCB00338C5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E41806FD2402697200338C5A;
-			remoteInfo = MGADENSDK;
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		E418076524026FB100338C5A /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				E418076724026FCA00338C5A /* MGADENSDK.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		14ABD1791AF9A29E12EC977B /* Pods-MGADENSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGADENSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -149,7 +113,6 @@
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6003F59B195388D20070C39A /* MGADENSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MGADENSDK-Prefix.pch"; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* MGADENSDK_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MGADENSDK_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -245,23 +208,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E418076624026FCA00338C5A /* MGADENSDK.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
-				E41808002402739500338C5A /* MGADENSDK.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
 				CF24A236FA9B510EE8381FBC /* Pods_MGADENSDK_Example.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6003F5AB195388D20070C39A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
-				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
-				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				3708FDAF627C08BCF26D8D86 /* Pods_MGADENSDK_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +243,6 @@
 			isa = PBXGroup;
 			children = (
 				6003F58A195388D20070C39A /* MGADENSDK_Example.app */,
-				6003F5AE195388D20070C39A /* MGADENSDK_Tests.xctest */,
 				E41806FE2402697200338C5A /* MGADENSDK.framework */,
 			);
 			name = Products;
@@ -503,24 +452,25 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41807F42402712500338C5A /* MGADENSDK.h in Headers */,
+				E41807FA2402712500338C5A /* MGBannerAdView.h in Headers */,
+				E41807DD2402712400338C5A /* MGInterstitialAd.h in Headers */,
+				E41807DF2402712400338C5A /* MGAdReward.h in Headers */,
+				E41807EB2402712500338C5A /* MGRewardedAd.h in Headers */,
+				E41808012402752400338C5A /* MGAdReward.m in Headers */,
 				E41807F62402712500338C5A /* MGADStrategy.h in Headers */,
 				E41807EA2402712500338C5A /* MGFBInsertAdController.h in Headers */,
 				E41807EE2402712500338C5A /* MGADHelper.h in Headers */,
-				E41807FA2402712500338C5A /* MGBannerAdView.h in Headers */,
 				E41807F32402712500338C5A /* MGAdSize.h in Headers */,
 				E41807F72402712500338C5A /* MGADProtocol.h in Headers */,
 				E41807EF2402712500338C5A /* MGAdController.h in Headers */,
-				E41807F42402712500338C5A /* MGADENSDK.h in Headers */,
-				E41807EB2402712500338C5A /* MGRewardedAd.h in Headers */,
 				E41807DA2402712400338C5A /* MGADDefines.h in Headers */,
 				E41807F22402712500338C5A /* MGGInsertAdController.h in Headers */,
-				E41807DD2402712400338C5A /* MGInterstitialAd.h in Headers */,
 				E41807E12402712400338C5A /* MGNetAPI.h in Headers */,
 				E41807E52402712500338C5A /* MGADManager.h in Headers */,
 				E41807E02402712400338C5A /* MGNetManager.h in Headers */,
 				E41807E92402712500338C5A /* MGFBRewardAdController.h in Headers */,
 				E41807F02402712500338C5A /* MGGRewardAdController.h in Headers */,
-				E41807DF2402712400338C5A /* MGAdReward.h in Headers */,
 				E41807F82402712500338C5A /* NSObject+WHC_Model.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -537,36 +487,15 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				6ECB6676C0AC0CB1573678E7 /* [CP] Embed Pods Frameworks */,
-				E418076524026FB100338C5A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E418076924026FCB00338C5A /* PBXTargetDependency */,
 			);
 			name = MGADENSDK_Example;
 			productName = MGADENSDK;
 			productReference = 6003F58A195388D20070C39A /* MGADENSDK_Example.app */;
 			productType = "com.apple.product-type.application";
-		};
-		6003F5AD195388D20070C39A /* MGADENSDK_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MGADENSDK_Tests" */;
-			buildPhases = (
-				654CE492D66AABFC355F871E /* [CP] Check Pods Manifest.lock */,
-				6003F5AA195388D20070C39A /* Sources */,
-				6003F5AB195388D20070C39A /* Frameworks */,
-				6003F5AC195388D20070C39A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
-			);
-			name = MGADENSDK_Tests;
-			productName = MGADENSDKTests;
-			productReference = 6003F5AE195388D20070C39A /* MGADENSDK_Tests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		E41806FD2402697200338C5A /* MGADENSDK */ = {
 			isa = PBXNativeTarget;
@@ -600,9 +529,6 @@
 					6003F589195388D20070C39A = {
 						DevelopmentTeam = 2LFJGTZC39;
 					};
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
 					E41806FD2402697200338C5A = {
 						CreatedOnToolsVersion = 11.3.1;
 						DevelopmentTeam = 2LFJGTZC39;
@@ -630,7 +556,6 @@
 			projectRoot = "";
 			targets = (
 				6003F589195388D20070C39A /* MGADENSDK_Example */,
-				6003F5AD195388D20070C39A /* MGADENSDK_Tests */,
 				E41806FD2402697200338C5A /* MGADENSDK */,
 				E418075A24026CE200338C5A /* MGMerge */,
 			);
@@ -656,14 +581,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AC195388D20070C39A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E41806FC2402697200338C5A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -674,28 +591,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		654CE492D66AABFC355F871E /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-MGADENSDK_Tests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
 		6ECB6676C0AC0CB1573678E7 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -703,11 +598,13 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/FBSDKCoreKit/FBSDKCoreKit.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
 				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FBSDKCoreKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
@@ -801,14 +698,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6003F5AA195388D20070C39A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6003F5BC195388D20070C39A /* Tests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E41806FA2402697200338C5A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -835,20 +724,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* MGADENSDK_Example */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
-		};
 		E418076024026D2300338C5A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = E41806FD2402697200338C5A /* MGADENSDK */;
 			targetProxy = E418075F24026D2300338C5A /* PBXContainerItemProxy */;
-		};
-		E418076924026FCB00338C5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = E41806FD2402697200338C5A /* MGADENSDK */;
-			targetProxy = E418076824026FCB00338C5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -970,8 +849,6 @@
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-framework",
-					"\"MGADENSDK\"",
 					"-all_load",
 					"-objC",
 				);
@@ -999,8 +876,6 @@
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
-					"-framework",
-					"\"MGADENSDK\"",
 					"-all_load",
 					"-objC",
 				);
@@ -1008,52 +883,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		6003F5C3195388D20070C39A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 87D31522247896BDF2FE63A2 /* Pods-MGADENSDK_Tests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGADENSDK_Example.app/MGADENSDK_Example";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		6003F5C4195388D20070C39A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F15A05EB3CAF3A5BB5368F6 /* Pods-MGADENSDK_Tests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
-				INFOPLIST_FILE = "Tests/Tests-Info.plist";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MGADENSDK_Example.app/MGADENSDK_Example";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -1191,15 +1020,6 @@
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
 				6003F5C1195388D20070C39A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "MGADENSDK_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6003F5C3195388D20070C39A /* Debug */,
-				6003F5C4195388D20070C39A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
