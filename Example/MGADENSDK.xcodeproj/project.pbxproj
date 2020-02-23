@@ -6,6 +6,21 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		E418075A24026CE200338C5A /* MGMerge */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E418075B24026CE200338C5A /* Build configuration list for PBXAggregateTarget "MGMerge" */;
+			buildPhases = (
+				E418075E24026D1D00338C5A /* ShellScript */,
+			);
+			dependencies = (
+				E418076024026D2300338C5A /* PBXTargetDependency */,
+			);
+			name = MGMerge;
+			productName = MGMerge;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		3708FDAF627C08BCF26D8D86 /* Pods_MGADENSDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD73A4C74F2423316FE00E3D /* Pods_MGADENSDK_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,28 +37,64 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CF24A236FA9B510EE8381FBC /* Pods_MGADENSDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3D9857082163E2BF49AB5D4 /* Pods_MGADENSDK_Example.framework */; };
-		E41806AD2402471200338C5A /* MGNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E418068C2402471000338C5A /* MGNetManager.m */; };
-		E41806AE2402471200338C5A /* MGFBRewardAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806902402471000338C5A /* MGFBRewardAdController.m */; };
-		E41806AF2402471200338C5A /* MGADManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806952402471000338C5A /* MGADManager.m */; };
-		E41806B02402471200338C5A /* MGADStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806962402471000338C5A /* MGADStrategy.m */; };
-		E41806B12402471200338C5A /* MGInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806982402471000338C5A /* MGInterstitialAd.m */; };
-		E41806B22402471200338C5A /* MGGRewardAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806992402471100338C5A /* MGGRewardAdController.m */; };
-		E41806B32402471200338C5A /* MGADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E418069C2402471100338C5A /* MGADHelper.m */; };
-		E41806B42402471200338C5A /* MGBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A02402471100338C5A /* MGBannerAdView.m */; };
-		E41806B52402471200338C5A /* MGADENSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A22402471100338C5A /* MGADENSDK.m */; };
-		E41806B62402471200338C5A /* MGFBInsertAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A42402471100338C5A /* MGFBInsertAdController.m */; };
-		E41806B72402471200338C5A /* MGRewardedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A52402471100338C5A /* MGRewardedAd.m */; };
-		E41806B82402471200338C5A /* MGAdSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A62402471100338C5A /* MGAdSize.m */; };
-		E41806B92402471200338C5A /* MGGInsertAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806A72402471100338C5A /* MGGInsertAdController.m */; };
-		E41806BA2402471200338C5A /* MGAdReward.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806AB2402471200338C5A /* MGAdReward.m */; };
-		E41806BB2402471200338C5A /* MGAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806AC2402471200338C5A /* MGAdController.m */; };
-		E41806BF2402471F00338C5A /* NSObject+WHC_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806BE2402471F00338C5A /* NSObject+WHC_Model.m */; };
+		E362CF517C3772A7A0D7AD5C /* Pods_MGADENSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56D9D91716A4F0FBF88F008E /* Pods_MGADENSDK.framework */; };
 		E41806CC2402478600338C5A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C22402478500338C5A /* ViewController.m */; };
 		E41806CD2402478600338C5A /* CustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C32402478500338C5A /* CustomViewController.m */; };
 		E41806CE2402478600338C5A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C82402478500338C5A /* AppDelegate.m */; };
 		E41806CF2402478600338C5A /* BannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806C92402478500338C5A /* BannerViewController.m */; };
 		E41806D02402478600338C5A /* InsertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806CA2402478600338C5A /* InsertViewController.m */; };
 		E41806D12402478600338C5A /* RewardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806CB2402478600338C5A /* RewardViewController.m */; };
+		E41806EB2402672900338C5A /* HUD_success@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41806D42402672900338C5A /* HUD_success@2x.png */; };
+		E41806EC2402672900338C5A /* HUD_success@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41806D52402672900338C5A /* HUD_success@3x.png */; };
+		E41806ED2402672900338C5A /* HUD_error@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41806D62402672900338C5A /* HUD_error@3x.png */; };
+		E41806EE2402672900338C5A /* HUD_info@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41806D72402672900338C5A /* HUD_info@3x.png */; };
+		E41806EF2402672900338C5A /* HUD_info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41806D82402672900338C5A /* HUD_info@2x.png */; };
+		E41806F02402672900338C5A /* HUD_error@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E41806D92402672900338C5A /* HUD_error@2x.png */; };
+		E41806F12402672900338C5A /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806DC2402672900338C5A /* SVRadialGradientLayer.m */; };
+		E41806F22402672900338C5A /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806DF2402672900338C5A /* SVProgressAnimatedView.m */; };
+		E41806F32402672900338C5A /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E22402672900338C5A /* SVProgressHUD.m */; };
+		E41806F42402672900338C5A /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E32402672900338C5A /* SVIndefiniteAnimatedView.m */; };
+		E41806F52402672900338C5A /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E41806E42402672900338C5A /* SVProgressHUD.bundle */; };
+		E41806F62402672900338C5A /* NSObject+ALiHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E62402672900338C5A /* NSObject+ALiHUD.m */; };
+		E41806F72402672900338C5A /* WGKeyChain.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E72402672900338C5A /* WGKeyChain.m */; };
+		E41806F82402672900338C5A /* ALiProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E41806E82402672900338C5A /* ALiProgressHUD.m */; };
+		E41807052402697200338C5A /* MGADENSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E41806FE2402697200338C5A /* MGADENSDK.framework */; };
+		E41807062402697200338C5A /* MGADENSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E41806FE2402697200338C5A /* MGADENSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		E418072F24026A5700338C5A /* MGAdSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E418070B24026A5500338C5A /* MGAdSize.m */; };
+		E418073024026A5700338C5A /* MGADDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = E418070C24026A5500338C5A /* MGADDefines.h */; };
+		E418073124026A5700338C5A /* MGADStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = E418070D24026A5500338C5A /* MGADStrategy.h */; };
+		E418073224026A5700338C5A /* MGFBInsertAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E418070E24026A5500338C5A /* MGFBInsertAdController.m */; };
+		E418073324026A5700338C5A /* MGADStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = E418070F24026A5500338C5A /* MGADStrategy.m */; };
+		E418073424026A5700338C5A /* MGADENSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071024026A5500338C5A /* MGADENSDK.h */; };
+		E418073524026A5700338C5A /* MGADManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E418071124026A5500338C5A /* MGADManager.m */; };
+		E418073624026A5700338C5A /* MGADManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071224026A5600338C5A /* MGADManager.h */; };
+		E418073724026A5700338C5A /* MGInterstitialAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071324026A5600338C5A /* MGInterstitialAd.h */; };
+		E418073824026A5700338C5A /* MGFBRewardAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E418071424026A5600338C5A /* MGFBRewardAdController.m */; };
+		E418073924026A5700338C5A /* MGADHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071524026A5600338C5A /* MGADHelper.h */; };
+		E418073A24026A5700338C5A /* MGGRewardAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071624026A5600338C5A /* MGGRewardAdController.h */; };
+		E418073B24026A5700338C5A /* MGNetManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E418071724026A5600338C5A /* MGNetManager.m */; };
+		E418073C24026A5700338C5A /* MGAdReward.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071824026A5600338C5A /* MGAdReward.h */; };
+		E418073D24026A5700338C5A /* MGRewardedAd.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071924026A5600338C5A /* MGRewardedAd.h */; };
+		E418073E24026A5700338C5A /* MGBannerAdView.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071A24026A5600338C5A /* MGBannerAdView.h */; };
+		E418073F24026A5700338C5A /* NSObject+WHC_Model.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071C24026A5600338C5A /* NSObject+WHC_Model.h */; };
+		E418074024026A5700338C5A /* NSObject+WHC_Model.m in Sources */ = {isa = PBXBuildFile; fileRef = E418071D24026A5600338C5A /* NSObject+WHC_Model.m */; };
+		E418074124026A5700338C5A /* MGRewardedAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E418071E24026A5600338C5A /* MGRewardedAd.m */; };
+		E418074224026A5700338C5A /* MGNetManager.h in Headers */ = {isa = PBXBuildFile; fileRef = E418071F24026A5600338C5A /* MGNetManager.h */; };
+		E418074324026A5700338C5A /* MGGInsertAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E418072024026A5600338C5A /* MGGInsertAdController.h */; };
+		E418074424026A5700338C5A /* MGGInsertAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072124026A5600338C5A /* MGGInsertAdController.m */; };
+		E418074524026A5700338C5A /* MGNetAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = E418072224026A5600338C5A /* MGNetAPI.h */; };
+		E418074624026A5700338C5A /* MGAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E418072324026A5600338C5A /* MGAdController.h */; };
+		E418074724026A5700338C5A /* MGFBRewardAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E418072424026A5600338C5A /* MGFBRewardAdController.h */; };
+		E418074824026A5700338C5A /* MGAdReward.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072524026A5600338C5A /* MGAdReward.m */; };
+		E418074924026A5700338C5A /* MGADProtocol.h in Headers */ = {isa = PBXBuildFile; fileRef = E418072624026A5600338C5A /* MGADProtocol.h */; };
+		E418074A24026A5700338C5A /* MGADENSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072724026A5600338C5A /* MGADENSDK.m */; };
+		E418074B24026A5700338C5A /* MGAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072824026A5700338C5A /* MGAdController.m */; };
+		E418074C24026A5700338C5A /* MGFBInsertAdController.h in Headers */ = {isa = PBXBuildFile; fileRef = E418072924026A5700338C5A /* MGFBInsertAdController.h */; };
+		E418074D24026A5700338C5A /* MGInterstitialAd.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072A24026A5700338C5A /* MGInterstitialAd.m */; };
+		E418074E24026A5700338C5A /* MGBannerAdView.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072B24026A5700338C5A /* MGBannerAdView.m */; };
+		E418074F24026A5700338C5A /* MGAdSize.h in Headers */ = {isa = PBXBuildFile; fileRef = E418072C24026A5700338C5A /* MGAdSize.h */; };
+		E418075024026A5700338C5A /* MGADHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072D24026A5700338C5A /* MGADHelper.m */; };
+		E418075124026A5700338C5A /* MGGRewardAdController.m in Sources */ = {isa = PBXBuildFile; fileRef = E418072E24026A5700338C5A /* MGGRewardAdController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,11 +105,40 @@
 			remoteGlobalIDString = 6003F589195388D20070C39A;
 			remoteInfo = MGADENSDK;
 		};
+		E41807032402697200338C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E41806FD2402697200338C5A;
+			remoteInfo = MGADENSDK;
+		};
+		E418075F24026D2300338C5A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6003F582195388D10070C39A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E41806FD2402697200338C5A;
+			remoteInfo = MGADENSDK;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E41807072402697200338C5A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				E41807062402697200338C5A /* MGADENSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		14ABD1791AF9A29E12EC977B /* Pods-MGADENSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGADENSDK_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		550FA39C2ED2CF76F7E0484D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		56D9D91716A4F0FBF88F008E /* Pods_MGADENSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGADENSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* MGADENSDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MGADENSDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -81,41 +161,6 @@
 		8FC91863841682AC63A1F335 /* Pods-MGADENSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGADENSDK_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CD73A4C74F2423316FE00E3D /* Pods_MGADENSDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGADENSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3D9857082163E2BF49AB5D4 /* Pods_MGADENSDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MGADENSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E418068C2402471000338C5A /* MGNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGNetManager.m; path = ../MGADENSDK/Classes/MGNetManager.m; sourceTree = "<group>"; };
-		E418068D2402471000338C5A /* MGADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADManager.h; path = ../MGADENSDK/Classes/MGADManager.h; sourceTree = "<group>"; };
-		E418068E2402471000338C5A /* MGBannerAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGBannerAdView.h; path = ../MGADENSDK/Classes/MGBannerAdView.h; sourceTree = "<group>"; };
-		E418068F2402471000338C5A /* MGADENSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADENSDK.h; path = ../MGADENSDK/Classes/MGADENSDK.h; sourceTree = "<group>"; };
-		E41806902402471000338C5A /* MGFBRewardAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGFBRewardAdController.m; path = ../MGADENSDK/Classes/MGFBRewardAdController.m; sourceTree = "<group>"; };
-		E41806912402471000338C5A /* MGADProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADProtocol.h; path = ../MGADENSDK/Classes/MGADProtocol.h; sourceTree = "<group>"; };
-		E41806922402471000338C5A /* MGGRewardAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGRewardAdController.h; path = ../MGADENSDK/Classes/MGGRewardAdController.h; sourceTree = "<group>"; };
-		E41806932402471000338C5A /* MGADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADHelper.h; path = ../MGADENSDK/Classes/MGADHelper.h; sourceTree = "<group>"; };
-		E41806942402471000338C5A /* MGADStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADStrategy.h; path = ../MGADENSDK/Classes/MGADStrategy.h; sourceTree = "<group>"; };
-		E41806952402471000338C5A /* MGADManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADManager.m; path = ../MGADENSDK/Classes/MGADManager.m; sourceTree = "<group>"; };
-		E41806962402471000338C5A /* MGADStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADStrategy.m; path = ../MGADENSDK/Classes/MGADStrategy.m; sourceTree = "<group>"; };
-		E41806972402471000338C5A /* MGAdReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdReward.h; path = ../MGADENSDK/Classes/MGAdReward.h; sourceTree = "<group>"; };
-		E41806982402471000338C5A /* MGInterstitialAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGInterstitialAd.m; path = ../MGADENSDK/Classes/MGInterstitialAd.m; sourceTree = "<group>"; };
-		E41806992402471100338C5A /* MGGRewardAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGGRewardAdController.m; path = ../MGADENSDK/Classes/MGGRewardAdController.m; sourceTree = "<group>"; };
-		E418069A2402471100338C5A /* MGFBRewardAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFBRewardAdController.h; path = ../MGADENSDK/Classes/MGFBRewardAdController.h; sourceTree = "<group>"; };
-		E418069B2402471100338C5A /* MGGInsertAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGInsertAdController.h; path = ../MGADENSDK/Classes/MGGInsertAdController.h; sourceTree = "<group>"; };
-		E418069C2402471100338C5A /* MGADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADHelper.m; path = ../MGADENSDK/Classes/MGADHelper.m; sourceTree = "<group>"; };
-		E418069D2402471100338C5A /* MGADDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADDefines.h; path = ../MGADENSDK/Classes/MGADDefines.h; sourceTree = "<group>"; };
-		E418069E2402471100338C5A /* MGFBInsertAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFBInsertAdController.h; path = ../MGADENSDK/Classes/MGFBInsertAdController.h; sourceTree = "<group>"; };
-		E418069F2402471100338C5A /* MGAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdSize.h; path = ../MGADENSDK/Classes/MGAdSize.h; sourceTree = "<group>"; };
-		E41806A02402471100338C5A /* MGBannerAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGBannerAdView.m; path = ../MGADENSDK/Classes/MGBannerAdView.m; sourceTree = "<group>"; };
-		E41806A12402471100338C5A /* MGNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNetManager.h; path = ../MGADENSDK/Classes/MGNetManager.h; sourceTree = "<group>"; };
-		E41806A22402471100338C5A /* MGADENSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADENSDK.m; path = ../MGADENSDK/Classes/MGADENSDK.m; sourceTree = "<group>"; };
-		E41806A32402471100338C5A /* MGRewardedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGRewardedAd.h; path = ../MGADENSDK/Classes/MGRewardedAd.h; sourceTree = "<group>"; };
-		E41806A42402471100338C5A /* MGFBInsertAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGFBInsertAdController.m; path = ../MGADENSDK/Classes/MGFBInsertAdController.m; sourceTree = "<group>"; };
-		E41806A52402471100338C5A /* MGRewardedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGRewardedAd.m; path = ../MGADENSDK/Classes/MGRewardedAd.m; sourceTree = "<group>"; };
-		E41806A62402471100338C5A /* MGAdSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdSize.m; path = ../MGADENSDK/Classes/MGAdSize.m; sourceTree = "<group>"; };
-		E41806A72402471100338C5A /* MGGInsertAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGGInsertAdController.m; path = ../MGADENSDK/Classes/MGGInsertAdController.m; sourceTree = "<group>"; };
-		E41806A82402471100338C5A /* MGInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGInterstitialAd.h; path = ../MGADENSDK/Classes/MGInterstitialAd.h; sourceTree = "<group>"; };
-		E41806A92402471100338C5A /* MGNetAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNetAPI.h; path = ../MGADENSDK/Classes/MGNetAPI.h; sourceTree = "<group>"; };
-		E41806AA2402471200338C5A /* MGAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdController.h; path = ../MGADENSDK/Classes/MGAdController.h; sourceTree = "<group>"; };
-		E41806AB2402471200338C5A /* MGAdReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdReward.m; path = ../MGADENSDK/Classes/MGAdReward.m; sourceTree = "<group>"; };
-		E41806AC2402471200338C5A /* MGAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdController.m; path = ../MGADENSDK/Classes/MGAdController.m; sourceTree = "<group>"; };
-		E41806BD2402471F00338C5A /* NSObject+WHC_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHC_Model.h"; sourceTree = "<group>"; };
-		E41806BE2402471F00338C5A /* NSObject+WHC_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHC_Model.m"; sourceTree = "<group>"; };
 		E41806C02402478500338C5A /* BannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerViewController.h; sourceTree = "<group>"; };
 		E41806C12402478500338C5A /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E41806C22402478500338C5A /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
@@ -128,6 +173,68 @@
 		E41806C92402478500338C5A /* BannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerViewController.m; sourceTree = "<group>"; };
 		E41806CA2402478600338C5A /* InsertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InsertViewController.m; sourceTree = "<group>"; };
 		E41806CB2402478600338C5A /* RewardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RewardViewController.m; sourceTree = "<group>"; };
+		E41806D42402672900338C5A /* HUD_success@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@2x.png"; sourceTree = "<group>"; };
+		E41806D52402672900338C5A /* HUD_success@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_success@3x.png"; sourceTree = "<group>"; };
+		E41806D62402672900338C5A /* HUD_error@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@3x.png"; sourceTree = "<group>"; };
+		E41806D72402672900338C5A /* HUD_info@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@3x.png"; sourceTree = "<group>"; };
+		E41806D82402672900338C5A /* HUD_info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_info@2x.png"; sourceTree = "<group>"; };
+		E41806D92402672900338C5A /* HUD_error@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HUD_error@2x.png"; sourceTree = "<group>"; };
+		E41806DA2402672900338C5A /* ALiProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALiProgressHUD.h; sourceTree = "<group>"; };
+		E41806DC2402672900338C5A /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		E41806DD2402672900338C5A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		E41806DE2402672900338C5A /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		E41806DF2402672900338C5A /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		E41806E02402672900338C5A /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		E41806E12402672900338C5A /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		E41806E22402672900338C5A /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		E41806E32402672900338C5A /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		E41806E42402672900338C5A /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		E41806E52402672900338C5A /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		E41806E62402672900338C5A /* NSObject+ALiHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+ALiHUD.m"; sourceTree = "<group>"; };
+		E41806E72402672900338C5A /* WGKeyChain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WGKeyChain.m; sourceTree = "<group>"; };
+		E41806E82402672900338C5A /* ALiProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALiProgressHUD.m; sourceTree = "<group>"; };
+		E41806E92402672900338C5A /* WGKeyChain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WGKeyChain.h; sourceTree = "<group>"; };
+		E41806EA2402672900338C5A /* NSObject+ALiHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+ALiHUD.h"; sourceTree = "<group>"; };
+		E41806FE2402697200338C5A /* MGADENSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MGADENSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E41807012402697200338C5A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E418070B24026A5500338C5A /* MGAdSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdSize.m; path = ../../MGADENSDK/Classes/MGAdSize.m; sourceTree = "<group>"; };
+		E418070C24026A5500338C5A /* MGADDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADDefines.h; path = ../../MGADENSDK/Classes/MGADDefines.h; sourceTree = "<group>"; };
+		E418070D24026A5500338C5A /* MGADStrategy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADStrategy.h; path = ../../MGADENSDK/Classes/MGADStrategy.h; sourceTree = "<group>"; };
+		E418070E24026A5500338C5A /* MGFBInsertAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGFBInsertAdController.m; path = ../../MGADENSDK/Classes/MGFBInsertAdController.m; sourceTree = "<group>"; };
+		E418070F24026A5500338C5A /* MGADStrategy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADStrategy.m; path = ../../MGADENSDK/Classes/MGADStrategy.m; sourceTree = "<group>"; };
+		E418071024026A5500338C5A /* MGADENSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADENSDK.h; path = ../../MGADENSDK/Classes/MGADENSDK.h; sourceTree = "<group>"; };
+		E418071124026A5500338C5A /* MGADManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADManager.m; path = ../../MGADENSDK/Classes/MGADManager.m; sourceTree = "<group>"; };
+		E418071224026A5600338C5A /* MGADManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADManager.h; path = ../../MGADENSDK/Classes/MGADManager.h; sourceTree = "<group>"; };
+		E418071324026A5600338C5A /* MGInterstitialAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGInterstitialAd.h; path = ../../MGADENSDK/Classes/MGInterstitialAd.h; sourceTree = "<group>"; };
+		E418071424026A5600338C5A /* MGFBRewardAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGFBRewardAdController.m; path = ../../MGADENSDK/Classes/MGFBRewardAdController.m; sourceTree = "<group>"; };
+		E418071524026A5600338C5A /* MGADHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADHelper.h; path = ../../MGADENSDK/Classes/MGADHelper.h; sourceTree = "<group>"; };
+		E418071624026A5600338C5A /* MGGRewardAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGRewardAdController.h; path = ../../MGADENSDK/Classes/MGGRewardAdController.h; sourceTree = "<group>"; };
+		E418071724026A5600338C5A /* MGNetManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGNetManager.m; path = ../../MGADENSDK/Classes/MGNetManager.m; sourceTree = "<group>"; };
+		E418071824026A5600338C5A /* MGAdReward.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdReward.h; path = ../../MGADENSDK/Classes/MGAdReward.h; sourceTree = "<group>"; };
+		E418071924026A5600338C5A /* MGRewardedAd.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGRewardedAd.h; path = ../../MGADENSDK/Classes/MGRewardedAd.h; sourceTree = "<group>"; };
+		E418071A24026A5600338C5A /* MGBannerAdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGBannerAdView.h; path = ../../MGADENSDK/Classes/MGBannerAdView.h; sourceTree = "<group>"; };
+		E418071C24026A5600338C5A /* NSObject+WHC_Model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+WHC_Model.h"; sourceTree = "<group>"; };
+		E418071D24026A5600338C5A /* NSObject+WHC_Model.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+WHC_Model.m"; sourceTree = "<group>"; };
+		E418071E24026A5600338C5A /* MGRewardedAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGRewardedAd.m; path = ../../MGADENSDK/Classes/MGRewardedAd.m; sourceTree = "<group>"; };
+		E418071F24026A5600338C5A /* MGNetManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNetManager.h; path = ../../MGADENSDK/Classes/MGNetManager.h; sourceTree = "<group>"; };
+		E418072024026A5600338C5A /* MGGInsertAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGGInsertAdController.h; path = ../../MGADENSDK/Classes/MGGInsertAdController.h; sourceTree = "<group>"; };
+		E418072124026A5600338C5A /* MGGInsertAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGGInsertAdController.m; path = ../../MGADENSDK/Classes/MGGInsertAdController.m; sourceTree = "<group>"; };
+		E418072224026A5600338C5A /* MGNetAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGNetAPI.h; path = ../../MGADENSDK/Classes/MGNetAPI.h; sourceTree = "<group>"; };
+		E418072324026A5600338C5A /* MGAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdController.h; path = ../../MGADENSDK/Classes/MGAdController.h; sourceTree = "<group>"; };
+		E418072424026A5600338C5A /* MGFBRewardAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFBRewardAdController.h; path = ../../MGADENSDK/Classes/MGFBRewardAdController.h; sourceTree = "<group>"; };
+		E418072524026A5600338C5A /* MGAdReward.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdReward.m; path = ../../MGADENSDK/Classes/MGAdReward.m; sourceTree = "<group>"; };
+		E418072624026A5600338C5A /* MGADProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGADProtocol.h; path = ../../MGADENSDK/Classes/MGADProtocol.h; sourceTree = "<group>"; };
+		E418072724026A5600338C5A /* MGADENSDK.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADENSDK.m; path = ../../MGADENSDK/Classes/MGADENSDK.m; sourceTree = "<group>"; };
+		E418072824026A5700338C5A /* MGAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGAdController.m; path = ../../MGADENSDK/Classes/MGAdController.m; sourceTree = "<group>"; };
+		E418072924026A5700338C5A /* MGFBInsertAdController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGFBInsertAdController.h; path = ../../MGADENSDK/Classes/MGFBInsertAdController.h; sourceTree = "<group>"; };
+		E418072A24026A5700338C5A /* MGInterstitialAd.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGInterstitialAd.m; path = ../../MGADENSDK/Classes/MGInterstitialAd.m; sourceTree = "<group>"; };
+		E418072B24026A5700338C5A /* MGBannerAdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGBannerAdView.m; path = ../../MGADENSDK/Classes/MGBannerAdView.m; sourceTree = "<group>"; };
+		E418072C24026A5700338C5A /* MGAdSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MGAdSize.h; path = ../../MGADENSDK/Classes/MGAdSize.h; sourceTree = "<group>"; };
+		E418072D24026A5700338C5A /* MGADHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGADHelper.m; path = ../../MGADENSDK/Classes/MGADHelper.m; sourceTree = "<group>"; };
+		E418072E24026A5700338C5A /* MGGRewardAdController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MGGRewardAdController.m; path = ../../MGADENSDK/Classes/MGGRewardAdController.m; sourceTree = "<group>"; };
+		E418076124026E4B00338C5A /* MGADENSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MGADENSDK.framework; path = MGADENSDK/MGADENSDK.framework; sourceTree = "<group>"; };
+		E86C77BE6B951E6BB3D21BD1 /* Pods-MGADENSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGADENSDK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MGADENSDK/Pods-MGADENSDK.debug.xcconfig"; sourceTree = "<group>"; };
+		F16CBF90AA957953D0C49E09 /* Pods-MGADENSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MGADENSDK.release.xcconfig"; path = "Pods/Target Support Files/Pods-MGADENSDK/Pods-MGADENSDK.release.xcconfig"; sourceTree = "<group>"; };
 		F5D7A5788465B2648AB618C5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F76C71047FFE24CB360EB325 /* MGADENSDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MGADENSDK.podspec; path = ../MGADENSDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
@@ -137,6 +244,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41807052402697200338C5A /* MGADENSDK.framework in Frameworks */,
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
@@ -155,6 +263,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E41806FB2402697200338C5A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E362CF517C3772A7A0D7AD5C /* Pods_MGADENSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -164,6 +280,7 @@
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
 				6003F593195388D20070C39A /* Example for MGADENSDK */,
 				6003F5B5195388D20070C39A /* Tests */,
+				E41806FF2402697200338C5A /* MGADENSDK */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				E35F66CB63C7E36BF7C26126 /* Pods */,
@@ -175,6 +292,7 @@
 			children = (
 				6003F58A195388D20070C39A /* MGADENSDK_Example.app */,
 				6003F5AE195388D20070C39A /* MGADENSDK_Tests.xctest */,
+				E41806FE2402697200338C5A /* MGADENSDK.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +306,7 @@
 				6003F5AF195388D20070C39A /* XCTest.framework */,
 				D3D9857082163E2BF49AB5D4 /* Pods_MGADENSDK_Example.framework */,
 				CD73A4C74F2423316FE00E3D /* Pods_MGADENSDK_Tests.framework */,
+				56D9D91716A4F0FBF88F008E /* Pods_MGADENSDK.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -195,6 +314,7 @@
 		6003F593195388D20070C39A /* Example for MGADENSDK */ = {
 			isa = PBXGroup;
 			children = (
+				E41806D22402672900338C5A /* ALiHUD */,
 				E41806C52402478500338C5A /* AppDelegate.h */,
 				E41806C82402478500338C5A /* AppDelegate.m */,
 				E41806C02402478500338C5A /* BannerViewController.h */,
@@ -249,40 +369,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				E41806BC2402471F00338C5A /* WHC_ModelKit */,
-				E41806AA2402471200338C5A /* MGAdController.h */,
-				E41806AC2402471200338C5A /* MGAdController.m */,
-				E418069D2402471100338C5A /* MGADDefines.h */,
-				E418068F2402471000338C5A /* MGADENSDK.h */,
-				E41806A22402471100338C5A /* MGADENSDK.m */,
-				E41806932402471000338C5A /* MGADHelper.h */,
-				E418069C2402471100338C5A /* MGADHelper.m */,
-				E418068D2402471000338C5A /* MGADManager.h */,
-				E41806952402471000338C5A /* MGADManager.m */,
-				E41806912402471000338C5A /* MGADProtocol.h */,
-				E41806972402471000338C5A /* MGAdReward.h */,
-				E41806AB2402471200338C5A /* MGAdReward.m */,
-				E418069F2402471100338C5A /* MGAdSize.h */,
-				E41806A62402471100338C5A /* MGAdSize.m */,
-				E41806942402471000338C5A /* MGADStrategy.h */,
-				E41806962402471000338C5A /* MGADStrategy.m */,
-				E418068E2402471000338C5A /* MGBannerAdView.h */,
-				E41806A02402471100338C5A /* MGBannerAdView.m */,
-				E418069E2402471100338C5A /* MGFBInsertAdController.h */,
-				E41806A42402471100338C5A /* MGFBInsertAdController.m */,
-				E418069A2402471100338C5A /* MGFBRewardAdController.h */,
-				E41806902402471000338C5A /* MGFBRewardAdController.m */,
-				E418069B2402471100338C5A /* MGGInsertAdController.h */,
-				E41806A72402471100338C5A /* MGGInsertAdController.m */,
-				E41806922402471000338C5A /* MGGRewardAdController.h */,
-				E41806992402471100338C5A /* MGGRewardAdController.m */,
-				E41806A82402471100338C5A /* MGInterstitialAd.h */,
-				E41806982402471000338C5A /* MGInterstitialAd.m */,
-				E41806A92402471100338C5A /* MGNetAPI.h */,
-				E41806A12402471100338C5A /* MGNetManager.h */,
-				E418068C2402471000338C5A /* MGNetManager.m */,
-				E41806A32402471100338C5A /* MGRewardedAd.h */,
-				E41806A52402471100338C5A /* MGRewardedAd.m */,
+				E418076124026E4B00338C5A /* MGADENSDK.framework */,
 				F76C71047FFE24CB360EB325 /* MGADENSDK.podspec */,
 				F5D7A5788465B2648AB618C5 /* README.md */,
 				550FA39C2ED2CF76F7E0484D /* LICENSE */,
@@ -297,21 +384,139 @@
 				14ABD1791AF9A29E12EC977B /* Pods-MGADENSDK_Example.release.xcconfig */,
 				87D31522247896BDF2FE63A2 /* Pods-MGADENSDK_Tests.debug.xcconfig */,
 				6F15A05EB3CAF3A5BB5368F6 /* Pods-MGADENSDK_Tests.release.xcconfig */,
+				E86C77BE6B951E6BB3D21BD1 /* Pods-MGADENSDK.debug.xcconfig */,
+				F16CBF90AA957953D0C49E09 /* Pods-MGADENSDK.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		E41806BC2402471F00338C5A /* WHC_ModelKit */ = {
+		E41806D22402672900338C5A /* ALiHUD */ = {
 			isa = PBXGroup;
 			children = (
-				E41806BD2402471F00338C5A /* NSObject+WHC_Model.h */,
-				E41806BE2402471F00338C5A /* NSObject+WHC_Model.m */,
+				E41806D32402672900338C5A /* images */,
+				E41806DA2402672900338C5A /* ALiProgressHUD.h */,
+				E41806DB2402672900338C5A /* SVProgressHUD */,
+				E41806E62402672900338C5A /* NSObject+ALiHUD.m */,
+				E41806E72402672900338C5A /* WGKeyChain.m */,
+				E41806E82402672900338C5A /* ALiProgressHUD.m */,
+				E41806E92402672900338C5A /* WGKeyChain.h */,
+				E41806EA2402672900338C5A /* NSObject+ALiHUD.h */,
+			);
+			path = ALiHUD;
+			sourceTree = "<group>";
+		};
+		E41806D32402672900338C5A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E41806D42402672900338C5A /* HUD_success@2x.png */,
+				E41806D52402672900338C5A /* HUD_success@3x.png */,
+				E41806D62402672900338C5A /* HUD_error@3x.png */,
+				E41806D72402672900338C5A /* HUD_info@3x.png */,
+				E41806D82402672900338C5A /* HUD_info@2x.png */,
+				E41806D92402672900338C5A /* HUD_error@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		E41806DB2402672900338C5A /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E41806DC2402672900338C5A /* SVRadialGradientLayer.m */,
+				E41806DD2402672900338C5A /* SVIndefiniteAnimatedView.h */,
+				E41806DE2402672900338C5A /* SVProgressHUD.h */,
+				E41806DF2402672900338C5A /* SVProgressAnimatedView.m */,
+				E41806E02402672900338C5A /* SVProgressHUD-Prefix.pch */,
+				E41806E12402672900338C5A /* SVRadialGradientLayer.h */,
+				E41806E22402672900338C5A /* SVProgressHUD.m */,
+				E41806E32402672900338C5A /* SVIndefiniteAnimatedView.m */,
+				E41806E42402672900338C5A /* SVProgressHUD.bundle */,
+				E41806E52402672900338C5A /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		E41806FF2402697200338C5A /* MGADENSDK */ = {
+			isa = PBXGroup;
+			children = (
+				E418072324026A5600338C5A /* MGAdController.h */,
+				E418072824026A5700338C5A /* MGAdController.m */,
+				E418070C24026A5500338C5A /* MGADDefines.h */,
+				E418071024026A5500338C5A /* MGADENSDK.h */,
+				E418072724026A5600338C5A /* MGADENSDK.m */,
+				E418071524026A5600338C5A /* MGADHelper.h */,
+				E418072D24026A5700338C5A /* MGADHelper.m */,
+				E418071224026A5600338C5A /* MGADManager.h */,
+				E418071124026A5500338C5A /* MGADManager.m */,
+				E418072624026A5600338C5A /* MGADProtocol.h */,
+				E418071824026A5600338C5A /* MGAdReward.h */,
+				E418072524026A5600338C5A /* MGAdReward.m */,
+				E418072C24026A5700338C5A /* MGAdSize.h */,
+				E418070B24026A5500338C5A /* MGAdSize.m */,
+				E418070D24026A5500338C5A /* MGADStrategy.h */,
+				E418070F24026A5500338C5A /* MGADStrategy.m */,
+				E418071A24026A5600338C5A /* MGBannerAdView.h */,
+				E418072B24026A5700338C5A /* MGBannerAdView.m */,
+				E418072924026A5700338C5A /* MGFBInsertAdController.h */,
+				E418070E24026A5500338C5A /* MGFBInsertAdController.m */,
+				E418072424026A5600338C5A /* MGFBRewardAdController.h */,
+				E418071424026A5600338C5A /* MGFBRewardAdController.m */,
+				E418072024026A5600338C5A /* MGGInsertAdController.h */,
+				E418072124026A5600338C5A /* MGGInsertAdController.m */,
+				E418071624026A5600338C5A /* MGGRewardAdController.h */,
+				E418072E24026A5700338C5A /* MGGRewardAdController.m */,
+				E418071324026A5600338C5A /* MGInterstitialAd.h */,
+				E418072A24026A5700338C5A /* MGInterstitialAd.m */,
+				E418072224026A5600338C5A /* MGNetAPI.h */,
+				E418071F24026A5600338C5A /* MGNetManager.h */,
+				E418071724026A5600338C5A /* MGNetManager.m */,
+				E418071924026A5600338C5A /* MGRewardedAd.h */,
+				E418071E24026A5600338C5A /* MGRewardedAd.m */,
+				E418071B24026A5600338C5A /* WHC_ModelKit */,
+				E41807012402697200338C5A /* Info.plist */,
+			);
+			path = MGADENSDK;
+			sourceTree = "<group>";
+		};
+		E418071B24026A5600338C5A /* WHC_ModelKit */ = {
+			isa = PBXGroup;
+			children = (
+				E418071C24026A5600338C5A /* NSObject+WHC_Model.h */,
+				E418071D24026A5600338C5A /* NSObject+WHC_Model.m */,
 			);
 			name = WHC_ModelKit;
-			path = ../MGADENSDK/Classes/WHC_ModelKit;
+			path = ../../MGADENSDK/Classes/WHC_ModelKit;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E41806F92402697200338C5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E418073124026A5700338C5A /* MGADStrategy.h in Headers */,
+				E418073024026A5700338C5A /* MGADDefines.h in Headers */,
+				E418074224026A5700338C5A /* MGNetManager.h in Headers */,
+				E418074C24026A5700338C5A /* MGFBInsertAdController.h in Headers */,
+				E418074624026A5700338C5A /* MGAdController.h in Headers */,
+				E418073E24026A5700338C5A /* MGBannerAdView.h in Headers */,
+				E418073424026A5700338C5A /* MGADENSDK.h in Headers */,
+				E418074F24026A5700338C5A /* MGAdSize.h in Headers */,
+				E418073924026A5700338C5A /* MGADHelper.h in Headers */,
+				E418074524026A5700338C5A /* MGNetAPI.h in Headers */,
+				E418074924026A5700338C5A /* MGADProtocol.h in Headers */,
+				E418073624026A5700338C5A /* MGADManager.h in Headers */,
+				E418074324026A5700338C5A /* MGGInsertAdController.h in Headers */,
+				E418073A24026A5700338C5A /* MGGRewardAdController.h in Headers */,
+				E418073D24026A5700338C5A /* MGRewardedAd.h in Headers */,
+				E418073724026A5700338C5A /* MGInterstitialAd.h in Headers */,
+				E418074724026A5700338C5A /* MGFBRewardAdController.h in Headers */,
+				E418073C24026A5700338C5A /* MGAdReward.h in Headers */,
+				E418073F24026A5700338C5A /* NSObject+WHC_Model.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		6003F589195388D20070C39A /* MGADENSDK_Example */ = {
@@ -323,10 +528,12 @@
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
 				6ECB6676C0AC0CB1573678E7 /* [CP] Embed Pods Frameworks */,
+				E41807072402697200338C5A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				E41807042402697200338C5A /* PBXTargetDependency */,
 			);
 			name = MGADENSDK_Example;
 			productName = MGADENSDK;
@@ -352,6 +559,25 @@
 			productReference = 6003F5AE195388D20070C39A /* MGADENSDK_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		E41806FD2402697200338C5A /* MGADENSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E418070A2402697200338C5A /* Build configuration list for PBXNativeTarget "MGADENSDK" */;
+			buildPhases = (
+				AEA6693FF01087A92C4CB470 /* [CP] Check Pods Manifest.lock */,
+				E41806F92402697200338C5A /* Headers */,
+				E41806FA2402697200338C5A /* Sources */,
+				E41806FB2402697200338C5A /* Frameworks */,
+				E41806FC2402697200338C5A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MGADENSDK;
+			productName = MGADENSDK;
+			productReference = E41806FE2402697200338C5A /* MGADENSDK.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -367,6 +593,16 @@
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
+					};
+					E41806FD2402697200338C5A = {
+						CreatedOnToolsVersion = 11.3.1;
+						DevelopmentTeam = 2LFJGTZC39;
+						ProvisioningStyle = Automatic;
+					};
+					E418075A24026CE200338C5A = {
+						CreatedOnToolsVersion = 11.3.1;
+						DevelopmentTeam = 2LFJGTZC39;
+						ProvisioningStyle = Automatic;
 					};
 				};
 			};
@@ -386,6 +622,8 @@
 			targets = (
 				6003F589195388D20070C39A /* MGADENSDK_Example */,
 				6003F5AD195388D20070C39A /* MGADENSDK_Tests */,
+				E41806FD2402697200338C5A /* MGADENSDK */,
+				E418075A24026CE200338C5A /* MGMerge */,
 			);
 		};
 /* End PBXProject section */
@@ -395,10 +633,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E41806EB2402672900338C5A /* HUD_success@2x.png in Resources */,
+				E41806EE2402672900338C5A /* HUD_info@3x.png in Resources */,
+				E41806EC2402672900338C5A /* HUD_success@3x.png in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				E41806F02402672900338C5A /* HUD_error@2x.png in Resources */,
+				E41806ED2402672900338C5A /* HUD_error@3x.png in Resources */,
+				E41806EF2402672900338C5A /* HUD_info@2x.png in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				E41806F52402672900338C5A /* SVProgressHUD.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +652,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E41806FC2402697200338C5A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,22 +692,59 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/MGADENSDK/MGADENSDK.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MGADENSDK.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MGADENSDK_Example/Pods-MGADENSDK_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		AEA6693FF01087A92C4CB470 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MGADENSDK-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E418075E24026D1D00338C5A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "#!/bin/sh\n# 取得build的target名（get project name）\nTARGET_NAME=${PROJECT_NAME}\nif [[ $1 ]]\nthen\nTARGET_NAME=$1\nfi\nUNIVERSAL_OUTPUT_FOLDER=\"${SRCROOT}/${PROJECT_NAME}/\"\n#创建输出目录，并删除之前的framework文件\nmkdir -p \"${UNIVERSAL_OUTPUT_FOLDER}\"\nrm -rf \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework\"\n# 设置真机和模拟器生成的静态库路径 （set devcie framework and simulator framework path）\nWRK_DIR=build\nDEVICE_DIR=${WRK_DIR}/Release-iphoneos/${FMK_NAME}.framework\nSIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator/${FMK_NAME}.framework\n#分别编译模拟器和真机的Framework\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\nxcodebuild -target \"${TARGET_NAME}\" ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphonesimulator BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" clean build\n#拷贝framework到univer目录\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework\" \"${UNIVERSAL_OUTPUT_FOLDER}\"\n#合并framework，输出最终的framework到build目录\nlipo -create -output \"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/${TARGET_NAME}.framework/${TARGET_NAME}\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/${TARGET_NAME}.framework/${TARGET_NAME}\"\n#删除编译之后生成的无关的配置文件\ndir_path=\"${UNIVERSAL_OUTPUT_FOLDER}/${TARGET_NAME}.framework/\"\nfor file in ls $dir_path\ndo\nif [[ ${file} =~ \".xcconfig\" ]]\nthen\nrm -f \"${dir_path}/${file}\"\nfi\ndone\n#判断build文件夹是否存在，存在则删除\nif [ -d \"${SRCROOT}/build\" ]\nthen\nrm -rf \"${SRCROOT}/build\"\nfi\nrm -rf \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos\"\n#打开合并后的文件夹\nopen \"${UNIVERSAL_OUTPUT_FOLDER}\"\n";
 		};
 		FE2BFAE0BC3D41933DF3AA03 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -487,28 +776,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E41806CE2402478600338C5A /* AppDelegate.m in Sources */,
-				E41806AF2402471200338C5A /* MGADManager.m in Sources */,
-				E41806AE2402471200338C5A /* MGFBRewardAdController.m in Sources */,
-				E41806BB2402471200338C5A /* MGAdController.m in Sources */,
-				E41806BA2402471200338C5A /* MGAdReward.m in Sources */,
-				E41806B12402471200338C5A /* MGInterstitialAd.m in Sources */,
-				E41806BF2402471F00338C5A /* NSObject+WHC_Model.m in Sources */,
-				E41806B62402471200338C5A /* MGFBInsertAdController.m in Sources */,
-				E41806B52402471200338C5A /* MGADENSDK.m in Sources */,
-				E41806B22402471200338C5A /* MGGRewardAdController.m in Sources */,
-				E41806B02402471200338C5A /* MGADStrategy.m in Sources */,
-				E41806B32402471200338C5A /* MGADHelper.m in Sources */,
+				E41806F22402672900338C5A /* SVProgressAnimatedView.m in Sources */,
+				E41806F32402672900338C5A /* SVProgressHUD.m in Sources */,
+				E41806F72402672900338C5A /* WGKeyChain.m in Sources */,
+				E41806F82402672900338C5A /* ALiProgressHUD.m in Sources */,
 				E41806CF2402478600338C5A /* BannerViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 				E41806CC2402478600338C5A /* ViewController.m in Sources */,
 				E41806D12402478600338C5A /* RewardViewController.m in Sources */,
-				E41806B92402471200338C5A /* MGGInsertAdController.m in Sources */,
 				E41806CD2402478600338C5A /* CustomViewController.m in Sources */,
-				E41806B42402471200338C5A /* MGBannerAdView.m in Sources */,
-				E41806B72402471200338C5A /* MGRewardedAd.m in Sources */,
+				E41806F42402672900338C5A /* SVIndefiniteAnimatedView.m in Sources */,
+				E41806F12402672900338C5A /* SVRadialGradientLayer.m in Sources */,
 				E41806D02402478600338C5A /* InsertViewController.m in Sources */,
-				E41806B82402471200338C5A /* MGAdSize.m in Sources */,
-				E41806AD2402471200338C5A /* MGNetManager.m in Sources */,
+				E41806F62402672900338C5A /* NSObject+ALiHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +800,29 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E41806FA2402697200338C5A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E418074124026A5700338C5A /* MGRewardedAd.m in Sources */,
+				E418074424026A5700338C5A /* MGGInsertAdController.m in Sources */,
+				E418073824026A5700338C5A /* MGFBRewardAdController.m in Sources */,
+				E418073B24026A5700338C5A /* MGNetManager.m in Sources */,
+				E418073524026A5700338C5A /* MGADManager.m in Sources */,
+				E418074E24026A5700338C5A /* MGBannerAdView.m in Sources */,
+				E418074A24026A5700338C5A /* MGADENSDK.m in Sources */,
+				E418074024026A5700338C5A /* NSObject+WHC_Model.m in Sources */,
+				E418072F24026A5700338C5A /* MGAdSize.m in Sources */,
+				E418074D24026A5700338C5A /* MGInterstitialAd.m in Sources */,
+				E418074B24026A5700338C5A /* MGAdController.m in Sources */,
+				E418075124026A5700338C5A /* MGGRewardAdController.m in Sources */,
+				E418075024026A5700338C5A /* MGADHelper.m in Sources */,
+				E418074824026A5700338C5A /* MGAdReward.m in Sources */,
+				E418073324026A5700338C5A /* MGADStrategy.m in Sources */,
+				E418073224026A5700338C5A /* MGFBInsertAdController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -527,6 +830,16 @@
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* MGADENSDK_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+		};
+		E41807042402697200338C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E41806FD2402697200338C5A /* MGADENSDK */;
+			targetProxy = E41807032402697200338C5A /* PBXContainerItemProxy */;
+		};
+		E418076024026D2300338C5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E41806FD2402697200338C5A /* MGADENSDK */;
+			targetProxy = E418075F24026D2300338C5A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -640,12 +953,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGADENSDK/MGADENSDK-Prefix.pch";
 				INFOPLIST_FILE = "MGADENSDK/MGADENSDK-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
-					"-ObjC",
 					"\"MGADENSDK\"",
+					"-all_load",
+					"-objC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -663,12 +978,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MGADENSDK/MGADENSDK-Prefix.pch";
 				INFOPLIST_FILE = "MGADENSDK/MGADENSDK-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				OTHER_LDFLAGS = (
 					"$(inherited)",
 					"-framework",
-					"-ObjC",
 					"\"MGADENSDK\"",
+					"-all_load",
+					"-objC",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -723,6 +1040,123 @@
 			};
 			name = Release;
 		};
+		E41807082402697200338C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E86C77BE6B951E6BB3D21BD1 /* Pods-MGADENSDK.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2LFJGTZC39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MGADENSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sina.game.MGADENSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E41807092402697200338C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F16CBF90AA957953D0C49E09 /* Pods-MGADENSDK.release.xcconfig */;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2LFJGTZC39;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = MGADENSDK/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.sina.game.MGADENSDK;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E418075C24026CE200338C5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LFJGTZC39;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E418075D24026CE200338C5A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2LFJGTZC39;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -749,6 +1183,24 @@
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,
 				6003F5C4195388D20070C39A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E418070A2402697200338C5A /* Build configuration list for PBXNativeTarget "MGADENSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E41807082402697200338C5A /* Debug */,
+				E41807092402697200338C5A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E418075B24026CE200338C5A /* Build configuration list for PBXAggregateTarget "MGMerge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E418075C24026CE200338C5A /* Debug */,
+				E418075D24026CE200338C5A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

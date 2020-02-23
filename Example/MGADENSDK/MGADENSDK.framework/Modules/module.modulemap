@@ -1,0 +1,6 @@
+framework module MGADENSDK {
+  umbrella header "MGADENSDK.h"
+
+  export *
+  module * { export * }
+}

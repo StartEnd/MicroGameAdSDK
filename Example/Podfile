@@ -4,10 +4,20 @@ platform :ios, '8.0'
 
 target 'MGADENSDK_Example' do
   pod 'MGADENSDK', :path => '../'
+  pod 'Google-Mobile-Ads-SDK'
+  pod 'FBAudienceNetwork'
+  pod 'GoogleMobileAdsMediationFacebook'
 
   target 'MGADENSDK_Tests' do
     inherit! :search_paths
 
     
   end
+end
+
+target 'MGADENSDK' do
+  pod 'Google-Mobile-Ads-SDK'
+  pod 'FBAudienceNetwork'
+  pod 'GoogleMobileAdsMediationFacebook'
+
 end

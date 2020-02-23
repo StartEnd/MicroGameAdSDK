@@ -17,7 +17,7 @@
 #import "InsertViewController.h"
 #import "RewardViewController.h"
 #import "BannerViewController.h"
-@import GoogleMobileAdsMediationTestSuite;
+//@import GoogleMobileAdsMediationTestSuite;
 
 
 @interface ViewController ()<MGRewardedAdDelegate,MGInterstitialAdDelegate,MGBannerAdViewDelegate>
@@ -68,7 +68,7 @@
 //测试中介
 - (IBAction)testMediation:(id)sender {
     NSString *appID = @"ca-app-pub-4467542253883619~9687949222";
-    [GoogleMobileAdsMediationTestSuite presentWithAppID:appID onViewController:self delegate:nil];
+ //   [GoogleMobileAdsMediationTestSuite presentWithAppID:appID onViewController:self delegate:nil];
 }
 
 
