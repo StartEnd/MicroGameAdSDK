@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   # 简介
   s.summary          = 'A short description of MGADENSDK.'
 
@@ -40,7 +40,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   #源库资源文件
-  s.source_files = 'MGADENSDK/Classes/**/*'
+  #s.source_files = 'MGADENSDK/Classes/**/*'
   
   # s.resource_bundles = {
   #   'MGADENSDK' => ['MGADENSDK/Assets/*.png']
