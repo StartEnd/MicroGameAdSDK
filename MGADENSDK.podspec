@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   # 简介
   s.summary          = 'A short description of MGADENSDK.'
 
@@ -45,8 +45,10 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'MGADENSDK' => ['MGADENSDK/Assets/*.png']
   # }
+  # 依赖的自己的Framework
+  s.vendored_frameworks ='MGADENSDK.framework'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   # 依赖系统库
   s.frameworks = 'UIKit', 'Foundation'
   s.static_framework = true
