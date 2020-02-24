@@ -7,30 +7,22 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <MGADENSDK/MGBannerAdView.h>
+#import <MGADENSDK/MGInterstitialAd.h>
+#import <MGADENSDK/MGRewardedAd.h>
+#import <MGADENSDK/MGAdReward.h>
 
 @interface MGADENSDK : NSObject
 
+/// 注册应用
 + (void)registSDKwithAppkey:(NSString *)appkey;
+
+///
++ (void)testDeviceIdentifiers:(NSArray *)identifiers;
 
 // 测试类型
 + (void)setTestType:(NSInteger)type;
 
-// 缓存插页广告
-+ (void) loadInsertAD:(NSString *)adid;
-
-// 是否缓存好了插页广告
-+ (BOOL) isCachedInsertAD;
-
-// 展示插页广告
-+ (void) showInsertAD;
-
-
-
-// 是否缓存好了奖励广告
-+ (BOOL)isCachedRewardAD;
-
-// 展示奖励广告
-+ (void)showRewardAD;
 
 
 @end

@@ -7,7 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "MGAdSize.h"
 @protocol MGBannerAdViewDelegate;
 
 NS_ASSUME_NONNULL_BEGIN

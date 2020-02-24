@@ -6,7 +6,7 @@
 	<dict>
 		<key>Headers/MGADENSDK.h</key>
 		<data>
-		n1lyUqA8lGlOUgJ1EAbj7ZfpuS8=
+		bp8BRRO9OJWAYw9Z0TlYUqsmw1M=
 		</data>
 		<key>Headers/MGAdReward.h</key>
 		<data>
@@ -14,7 +14,7 @@
 		</data>
 		<key>Headers/MGBannerAdView.h</key>
 		<data>
-		u0328tfMK63+ZzJoY7E1F+mTq9I=
+		k/+2JpXyi2DYto9sR/p9ddLZqO0=
 		</data>
 		<key>Headers/MGInterstitialAd.h</key>
 		<data>
@@ -39,11 +39,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			n1lyUqA8lGlOUgJ1EAbj7ZfpuS8=
+			bp8BRRO9OJWAYw9Z0TlYUqsmw1M=
 			</data>
 			<key>hash2</key>
 			<data>
-			HWdo14Bf6jVVx6GoGY18IIWrvJPzrs3BZD75OzgpCYM=
+			4E/oshIZsWCc5/anOBWJNaQ+bNACYGnevdkVqwxsr8M=
 			</data>
 		</dict>
 		<key>Headers/MGAdReward.h</key>
@@ -61,11 +61,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			u0328tfMK63+ZzJoY7E1F+mTq9I=
+			k/+2JpXyi2DYto9sR/p9ddLZqO0=
 			</data>
 			<key>hash2</key>
 			<data>
-			MX4c1ZBozkdgZVVMCflUm9cCfAZSefXWymjJirsWg58=
+			sDQIN32vicYU3ASreKiz5uDGwhiKvKhbcrwHXpuXeYQ=
 			</data>
 		</dict>
 		<key>Headers/MGInterstitialAd.h</key>
