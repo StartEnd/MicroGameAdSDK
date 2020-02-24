@@ -10,9 +10,9 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   # 简介
-  s.summary          = 'A short description of MGADENSDK.'
+  s.summary          = '微游戏广告SDK'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,7 @@ TODO: Add long description of the pod here.
   # 开源协议
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   # 开源作者
-  s.author           = { 'StartEnd' => '858965877@qq.com' }
+  s.author           = { 'Mr.Song' => '996982027@qq.com' }
   #开源库GitHub的路径与tag值，GitHub路径后必须有.git,tag实际就是上面的版本
   s.source           = { :git => 'https://github.com/StartEnd/MicroGameAdSDK.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
@@ -50,10 +50,12 @@ TODO: Add long description of the pod here.
 
   s.public_header_files = 'Pod/Classes/**/*.h'
   # 依赖系统库
-  s.frameworks = 'UIKit', 'Foundation'
-  s.static_framework = true
+  # s.frameworks = 'UIKit', 'Foundation'
+  # s.static_framework = true
   # 开源库依赖库
-  s.dependency 'FBAudienceNetwork'
-  s.dependency 'Google-Mobile-Ads-SDK'
-  s.dependency 'GoogleMobileAdsMediationFacebook'
+  s.dependency 'Google-Mobile-Ads-SDK', '=7.55.1'
+  
+  # Facebook支持,保持版本一致
+  s.dependency 'FBAudienceNetwork', '=5.7.0'
+  s.dependency 'GoogleMobileAdsMediationFacebook', '=5.7.0'
 end

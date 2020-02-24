@@ -22,7 +22,7 @@ pod 'MGADENSDK'
 
 ## Author
 
-baixiaosheng, 996982027@qq.com
+Mr.Song, 996982027@qq.com
 
 ## License
 
