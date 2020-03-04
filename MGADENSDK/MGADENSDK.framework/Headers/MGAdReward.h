@@ -12,15 +12,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface MGAdReward : NSObject
 
-/// Type of the reward.
+/// 奖励类型
 @property(nonatomic, readonly, nonnull) NSString *type;
 
-/// Amount rewarded to the user.
-@property(nonatomic, readonly, nonnull) NSDecimalNumber *amount;
+/// 奖励金额
+@property(nonatomic, readonly, nonnull) NSString *amount;
 
-/// Returns an initialized MGAdReward with the provided reward type and reward amount.
+
 - (nonnull instancetype)initWithRewardType:(nonnull NSString *)rewardType
-                              rewardAmount:(nonnull NSDecimalNumber *)rewardAmount;
+                              rewardAmount:(nonnull NSString *)rewardAmount;
 
 @end
 

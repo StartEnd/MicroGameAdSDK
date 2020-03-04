@@ -3,6 +3,7 @@
     "networkName": "AdColony",
     "networkSdkClass": "AdColony",
     "initializerClass": "GADMediationAdapterAdColony",
+    "buyerNetworkID": 1385256,
     "adapters": [
       {
         "is_rtb": "true",
@@ -86,6 +87,7 @@
     "networkName": "Applovin",
     "networkSdkClass": "ALSdk",
     "initializerClass": "GADMediationAdapterAppLovin",
+    "buyerNetworkID": 1410708,
     "adapters": [
       {
         "is_rtb": "true",
@@ -271,6 +273,7 @@
     "networkName": "Facebook Audience Network",
     "networkSdkClass": "FBAdView",
     "initializerClass": "GADMediationAdapterFacebook",
+    "buyerNetworkID": 1418116,
     "adapters": [
       {
         "is_rtb": "true",
@@ -342,6 +345,7 @@
     "networkName": "InMobi",
     "networkSdkClass": "IMSdk",
     "initializerClass": "GADMediationAdapterInMobi",
+    "buyerNetworkID": 1392528,
     "adapters": [
       {
         "is_rtb": "true",
@@ -455,6 +459,7 @@
     "networkName": "maio",
     "networkSdkClass": "Maio",
     "initializerClass": "GADMediationAdapterMaio",
+    "buyerNetworkID": 1504118,
     "adapters": [
       {
         "is_rtb": "false",
@@ -641,6 +646,7 @@
     "networkName": "Tapjoy",
     "networkSdkClass": "Tapjoy",
     "initializerClass": "GADMediationAdapterTapjoy",
+    "buyerNetworkID": 1383005,
     "adapters": [
       {
         "is_rtb": "true",
@@ -770,6 +776,7 @@
     "networkName": "Vungle",
     "networkSdkClass": "VungleSDK",
     "initializerClass": "GADMediationAdapterVungle",
+    "buyerNetworkID": 1362416,
     "adapters": [
       {
         "is_rtb": "true",

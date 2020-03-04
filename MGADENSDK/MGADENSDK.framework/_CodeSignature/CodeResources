@@ -4,98 +4,65 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/ALDMediatedNetworkViewController.nib/objects-11.0+.nib</key>
+		<data>
+		VsHMi3r4a8Xzd37Vy5a28uqNbec=
+		</data>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/ALDMediatedNetworkViewController.nib/runtime.nib</key>
+		<data>
+		w7SoBWOAS3/WBLIrE8kRd5XUt7A=
+		</data>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/Info.plist</key>
+		<data>
+		16VyHTF987sMKpUASSJrrkn/cQE=
+		</data>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/quf-ks-53r-view-BrY-ch-ahN.nib/objects-11.0+.nib</key>
+		<data>
+		uI6zlmMVHErhPsYnwepIN4vBF+0=
+		</data>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/quf-ks-53r-view-BrY-ch-ahN.nib/runtime.nib</key>
+		<data>
+		43Ok2tj+arqr9GEjLEELavNOk1Y=
+		</data>
+		<key>AppLovinSDKResources.bundle/Assets.car</key>
+		<data>
+		RCL2SeKL/LjQJoyTCglsljgvih4=
+		</data>
+		<key>AppLovinSDKResources.bundle/Info.plist</key>
+		<data>
+		EnDa+vsmgRL3ieJUkMwsDcxP5Ow=
+		</data>
+		<key>AppLovinSDKResources.bundle/mute.caf</key>
+		<data>
+		wJpuMvONU3NLEqmGXErAXrHyjwc=
+		</data>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/Assets.car</key>
 		<data>
-		xbDMWWfaaDM1fzJFuWYUoYdvDs4=
+		hRE9eHsm7rO0QiuvqIOVep8zXU4=
 		</data>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/CountriesList.json</key>
 		<data>
 		ZfLezjZjxtTWzjfugi325xI2VPQ=
 		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib/objects-13.0+.nib</key>
 		<data>
-		kkmAMRGttxSPKDS9WzNrSzvu7z8=
+		iketOgacmnr5Vza7S7XCqUrj6Z4=
 		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib/runtime.nib</key>
 		<data>
-		d2c//dnNWuEF/Yr2iHqHLi/KM5o=
+		uW8Z4QoyXwA+pFOfDIC3DDKC/Iw=
 		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/Assets.car</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib/objects-13.0+.nib</key>
 		<data>
-		izliEaeCdvlwnJiVZ6sOz+AmQbQ=
+		GmIzntHlLALuJTUFYyMJR2hZHHg=
 		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/CountriesList.json</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib/runtime.nib</key>
 		<data>
-		ZfLezjZjxtTWzjfugi325xI2VPQ=
+		Gaqn1BwWH67cdXc923SUWFAUACc=
 		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib</key>
-		<data>
-		CLMb9whmQMVoHp65RI9hnbqEo+M=
-		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib</key>
-		<data>
-		m2fDBDgkh7HTGUPnyQW7veJEWj8=
-		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/Info.plist</key>
-		<data>
-		yW5LDRYILI6mtsinL3fceVNeB04=
-		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/InjectedMediationResponse.json</key>
-		<data>
-		hleQs1L8MOLq5QsFBVH2JDfgaHo=
-		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/MediationNetworkData.json</key>
-		<data>
-		g8w/HpK8oXFvAkQxiPZ7BdG0rhM=
-		</data>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			q/58c+Npjpc07aBYpU5XSYXEAts=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/Jo3xiQrgbCw1B9Q4/KpRxr2bM0=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9rPSxCFhwKn411fw05PaDBDquo8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/vi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			muMoD3AXP6yUK68Bc1kHE80OX2A=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3/WGXdLClSY8RoZ08zPwbgXdIlk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/Info.plist</key>
 		<data>
-		yW5LDRYILI6mtsinL3fceVNeB04=
+		Yz/pZUJzeiK0B2c0aqCs9FzuSLQ=
 		</data>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/InjectedMediationResponse.json</key>
 		<data>
@@ -103,13 +70,13 @@
 		</data>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/MediationNetworkData.json</key>
 		<data>
-		g8w/HpK8oXFvAkQxiPZ7BdG0rhM=
+		ZW82eXbJOihlm+N8G5Ttb29n2U4=
 		</data>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q/58c+Npjpc07aBYpU5XSYXEAts=
+			GAEBxCeev0N86wbICdA+HmOvoBA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -118,7 +85,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/Jo3xiQrgbCw1B9Q4/KpRxr2bM0=
+			ywjOEW3UabFaLOPxYQoX7JQamRE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -127,7 +94,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9rPSxCFhwKn411fw05PaDBDquo8=
+			dm3Ry6hS5lpl1CKs/q+1pTdSySI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -136,7 +103,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			muMoD3AXP6yUK68Bc1kHE80OX2A=
+			Tsl25zpi/GZfQ//eNCQ3GZDr2xs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -145,7 +112,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3/WGXdLClSY8RoZ08zPwbgXdIlk=
+			+nsvOZJTTPyKLWnVcG0fhi4CJoM=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -154,21 +121,25 @@
 		<data>
 		3FxDtB1h83FPETKFV5bFEVPYgKo=
 		</data>
+		<key>Headers/MGADMobileAds.h</key>
+		<data>
+		gtH6ys+ywKyDQ9fDRYkSbeJJ4LY=
+		</data>
 		<key>Headers/MGAdReward.h</key>
 		<data>
-		Kicnx6795r2t2vE7Zu1bU6sNrFg=
+		WVES7HgHz3xzmp6RRyGSO65ZlF8=
 		</data>
 		<key>Headers/MGBannerAdView.h</key>
 		<data>
-		k/+2JpXyi2DYto9sR/p9ddLZqO0=
+		zEI3QME0nf8fjRv+wCsZue24WeY=
 		</data>
 		<key>Headers/MGInterstitialAd.h</key>
 		<data>
-		joTkdVl1BL8cG1/LrCj9KzI2gH4=
+		JZawBPr5WztiRKYEReqKJ2MPq0U=
 		</data>
 		<key>Headers/MGRewardedAd.h</key>
 		<data>
-		tL+KbYOvLn73zucJXFH8jcHl9vA=
+		F05faEzO22G+HvjOzbsqxL1riEQ=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -178,18 +149,130 @@
 		<data>
 		M0c+BMO1KF4/tNlEvGfEY58KvhM=
 		</data>
+		<key>TapjoyResources.bundle/Info.plist</key>
+		<data>
+		1Ob/qzPgpyje9nh6AHDZsEw2zYM=
+		</data>
+		<key>TapjoyResources.bundle/TJCLoadingView.nib/objects-13.0+.nib</key>
+		<data>
+		gpHw+xBfOn9XBJ5ZAi1T5e/XaR8=
+		</data>
+		<key>TapjoyResources.bundle/TJCLoadingView.nib/runtime.nib</key>
+		<data>
+		DZlfRQZlUKbDTSLbmsBoaO7KC+w=
+		</data>
+		<key>TapjoyResources.bundle/TJCclose_button.png</key>
+		<data>
+		o0KCZ1bHRv2TC8EpjLU4Y52OBJE=
+		</data>
+		<key>TapjoyResources.bundle/TJCclose_button@2x.png</key>
+		<data>
+		7Da3krelErau65/5GH2qW+SGLyw=
+		</data>
+		<key>TapjoyResources.bundle/revision.txt</key>
+		<data>
+		6H9AgRZSEw4atkArt5wMhJ/egqo=
+		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/ALDMediatedNetworkViewController.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VsHMi3r4a8Xzd37Vy5a28uqNbec=
+			</data>
+			<key>hash2</key>
+			<data>
+			Lx4M3uGcKIyNwI2fBRy1tT/dG/V3h+zoqNtBQgYe7vY=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/ALDMediatedNetworkViewController.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			w7SoBWOAS3/WBLIrE8kRd5XUt7A=
+			</data>
+			<key>hash2</key>
+			<data>
+			/J3vZFiAFyQaAkbK0c8Qw9s5ZuAFvb1rNnaSuoYHiIs=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			16VyHTF987sMKpUASSJrrkn/cQE=
+			</data>
+			<key>hash2</key>
+			<data>
+			BxYOwINBSGITT5KJhde7emAM5ZAJNW6rSiw2Ia+by2o=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/quf-ks-53r-view-BrY-ch-ahN.nib/objects-11.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			uI6zlmMVHErhPsYnwepIN4vBF+0=
+			</data>
+			<key>hash2</key>
+			<data>
+			3lD0MOxLy1nKf+TevC701PxTm0S/ywFl/+4RkI5iruc=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/ALDMediatedNetworkViewController.storyboardc/quf-ks-53r-view-BrY-ch-ahN.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			43Ok2tj+arqr9GEjLEELavNOk1Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			8bpn+GfOJBCRZc/aITUDvVqIW3gRDM562bzEWfxUeWE=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RCL2SeKL/LjQJoyTCglsljgvih4=
+			</data>
+			<key>hash2</key>
+			<data>
+			/KzQQ5IuSPHedfuMPNfXofM708lK6A2ZoS4RpEO+/ao=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EnDa+vsmgRL3ieJUkMwsDcxP5Ow=
+			</data>
+			<key>hash2</key>
+			<data>
+			Xp5zwVeUtq5S9tznBCXhP6hee4sBF0TlO3grWCYj1Bk=
+			</data>
+		</dict>
+		<key>AppLovinSDKResources.bundle/mute.caf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			wJpuMvONU3NLEqmGXErAXrHyjwc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Vgv+Gbzu64taMsOeMOzNqlPDaaTEhFsNSmUF9fJJnUw=
+			</data>
+		</dict>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/Assets.car</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xbDMWWfaaDM1fzJFuWYUoYdvDs4=
+			hRE9eHsm7rO0QiuvqIOVep8zXU4=
 			</data>
 			<key>hash2</key>
 			<data>
-			OhA5XDBRl86djhFW4R+Rkjd5tT0jkg0o8z/SfZkOSWo=
+			nf45L/cGZO2tdtAIy7ZKqa7HqixdLAW3mA2FgOXrzIs=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/CountriesList.json</key>
@@ -203,179 +286,59 @@
 			Kc+w4YVlImFW/nnTjtPivRnnELCE+wCmxl14vpuF0E0=
 			</data>
 		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			kkmAMRGttxSPKDS9WzNrSzvu7z8=
+			iketOgacmnr5Vza7S7XCqUrj6Z4=
 			</data>
 			<key>hash2</key>
 			<data>
-			3IEF4cJERbULVrCYeW6961a1QWwRlrO9ROKiTQgZ6nw=
+			z8hkw0LQSQu4VzWlGiy0BwNdLoNwnLSqcHPPAM2CW6I=
 			</data>
 		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			d2c//dnNWuEF/Yr2iHqHLi/KM5o=
+			uW8Z4QoyXwA+pFOfDIC3DDKC/Iw=
 			</data>
 			<key>hash2</key>
 			<data>
-			bQgSfHfzPcVK5oPvevjh8Gqx1F3+L9EA3AtG3aKGmkE=
+			sqihFuhkbeOhzfjDjBwXxdGHWaOSmlq83FmgUocK/bM=
 			</data>
 		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/Assets.car</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			izliEaeCdvlwnJiVZ6sOz+AmQbQ=
+			GmIzntHlLALuJTUFYyMJR2hZHHg=
 			</data>
 			<key>hash2</key>
 			<data>
-			hwGsH49cK9ULfnHZGW+tRcueUcD953buqHDsgD7YyvY=
+			LXpz0NRYzQkcGPqb8Uo1+QJFdDdwbYN9KxGdyYX3t38=
 			</data>
 		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/CountriesList.json</key>
+		<key>GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib/runtime.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ZfLezjZjxtTWzjfugi325xI2VPQ=
+			Gaqn1BwWH67cdXc923SUWFAUACc=
 			</data>
 			<key>hash2</key>
 			<data>
-			Kc+w4YVlImFW/nnTjtPivRnnELCE+wCmxl14vpuF0E0=
+			3s+QGNiCUdE0ROP4J4R+AzOVDc6wbAgUE/mPnva4m4w=
 			</data>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/GMTSDetailCardView.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			CLMb9whmQMVoHp65RI9hnbqEo+M=
-			</data>
-			<key>hash2</key>
-			<data>
-			XdfknmpSx99uSId3Pvt48yT/KDEbA33EtYAuJodnc+Y=
-			</data>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/GMTSDisclaimerDialogView.nib</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			m2fDBDgkh7HTGUPnyQW7veJEWj8=
-			</data>
-			<key>hash2</key>
-			<data>
-			PC49zS+wW5uxuUAFnXX45DkMZSzQ7cpi+Hd2Afm/N2c=
-			</data>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			yW5LDRYILI6mtsinL3fceVNeB04=
-			</data>
-			<key>hash2</key>
-			<data>
-			wEq9K1B4mIsH4jpd9tScyApyb5bhvnmUueXyD9swC7E=
-			</data>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/InjectedMediationResponse.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			hleQs1L8MOLq5QsFBVH2JDfgaHo=
-			</data>
-			<key>hash2</key>
-			<data>
-			p+9cF/tqkp96icYNfuHXMRdhRd+16FigiApOU/fbTBE=
-			</data>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/MediationNetworkData.json</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g8w/HpK8oXFvAkQxiPZ7BdG0rhM=
-			</data>
-			<key>hash2</key>
-			<data>
-			qOufiCcrSoFAh0OQ4xf36kEGDw/yoZ5rS+Ls2fiwM3o=
-			</data>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			q/58c+Npjpc07aBYpU5XSYXEAts=
-			</data>
-			<key>hash2</key>
-			<data>
-			bogMXFiu0PMRkY6KhxutEvwwSQwXGt6iRV5H8lCAK7U=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/ja.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/Jo3xiQrgbCw1B9Q4/KpRxr2bM0=
-			</data>
-			<key>hash2</key>
-			<data>
-			HMq+t8ROeLVNR5qyS2CnvLUTJEMFqrmYvokOCV5qKqg=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/ko.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			9rPSxCFhwKn411fw05PaDBDquo8=
-			</data>
-			<key>hash2</key>
-			<data>
-			fpVlDgX1FCzRdaKTlzKY8j/fgxgEsWMBmlYBuR5ONNc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/vi.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			muMoD3AXP6yUK68Bc1kHE80OX2A=
-			</data>
-			<key>hash2</key>
-			<data>
-			CAdElNg05kmWSbuFVVQwC2TGJzI6gkqgyXuq+6dSro4=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>GoogleMobileAdsMediationTestSuite.bundle/GoogleMobileAdsMediationTestSuite.bundle/zh-Hans.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			3/WGXdLClSY8RoZ08zPwbgXdIlk=
-			</data>
-			<key>hash2</key>
-			<data>
-			gXpPBuAuhdUTIwWlBTbSHwTGQk9dQPZvPIAd0+PxafI=
-			</data>
-			<key>optional</key>
-			<true/>
 		</dict>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			yW5LDRYILI6mtsinL3fceVNeB04=
+			Yz/pZUJzeiK0B2c0aqCs9FzuSLQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			wEq9K1B4mIsH4jpd9tScyApyb5bhvnmUueXyD9swC7E=
+			TJLFBR38JqJwyiTr50daiTr1eYhkdj9Hq22GADGofGs=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/InjectedMediationResponse.json</key>
@@ -393,22 +356,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			g8w/HpK8oXFvAkQxiPZ7BdG0rhM=
+			ZW82eXbJOihlm+N8G5Ttb29n2U4=
 			</data>
 			<key>hash2</key>
 			<data>
-			qOufiCcrSoFAh0OQ4xf36kEGDw/yoZ5rS+Ls2fiwM3o=
+			jqURXycFJI9V5IWHnn+NBqgq4DqCcnFm8jPj3IiikFs=
 			</data>
 		</dict>
 		<key>GoogleMobileAdsMediationTestSuite.bundle/en.lproj/Localizable.strings</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			q/58c+Npjpc07aBYpU5XSYXEAts=
+			GAEBxCeev0N86wbICdA+HmOvoBA=
 			</data>
 			<key>hash2</key>
 			<data>
-			bogMXFiu0PMRkY6KhxutEvwwSQwXGt6iRV5H8lCAK7U=
+			KBX5rhdmqZeM6ORdyiup7B7j0BcbxW/uA3EnOmgffjU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -417,11 +380,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			/Jo3xiQrgbCw1B9Q4/KpRxr2bM0=
+			ywjOEW3UabFaLOPxYQoX7JQamRE=
 			</data>
 			<key>hash2</key>
 			<data>
-			HMq+t8ROeLVNR5qyS2CnvLUTJEMFqrmYvokOCV5qKqg=
+			MXW6Avqk8McK5bNBUphyuLDsGyy8UyYE5pRWbD1n+Kw=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -430,11 +393,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9rPSxCFhwKn411fw05PaDBDquo8=
+			dm3Ry6hS5lpl1CKs/q+1pTdSySI=
 			</data>
 			<key>hash2</key>
 			<data>
-			fpVlDgX1FCzRdaKTlzKY8j/fgxgEsWMBmlYBuR5ONNc=
+			8yi0YGJn413H/IdOjbs0fxg/JM/RixCqEEVM6frqUTk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -443,11 +406,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			muMoD3AXP6yUK68Bc1kHE80OX2A=
+			Tsl25zpi/GZfQ//eNCQ3GZDr2xs=
 			</data>
 			<key>hash2</key>
 			<data>
-			CAdElNg05kmWSbuFVVQwC2TGJzI6gkqgyXuq+6dSro4=
+			IeQv10wwd4uvRWJ89KYnXnheq6aeuzdhNR9MIxXKPKY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -456,11 +419,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3/WGXdLClSY8RoZ08zPwbgXdIlk=
+			+nsvOZJTTPyKLWnVcG0fhi4CJoM=
 			</data>
 			<key>hash2</key>
 			<data>
-			gXpPBuAuhdUTIwWlBTbSHwTGQk9dQPZvPIAd0+PxafI=
+			gA5VplhYXVcsvY9knCRUTEmHgS1GP/2TqblE+csazMo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -476,48 +439,59 @@
 			DuM8wWWveaEZ6vIFKw8TjgJWBilN/QGVoefkhwWgetE=
 			</data>
 		</dict>
+		<key>Headers/MGADMobileAds.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gtH6ys+ywKyDQ9fDRYkSbeJJ4LY=
+			</data>
+			<key>hash2</key>
+			<data>
+			0h5LErY2vFBpJhiDSUT7gPBXAxYGtBCjrgV2s/pHJ9w=
+			</data>
+		</dict>
 		<key>Headers/MGAdReward.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kicnx6795r2t2vE7Zu1bU6sNrFg=
+			WVES7HgHz3xzmp6RRyGSO65ZlF8=
 			</data>
 			<key>hash2</key>
 			<data>
-			xmqh6D7of7uzBCd+5DUrD4g7/Mk2hK281jY40XnnKpw=
+			HBk5U3W+l7fC5KXsu4D356+wjMyjirmLb6zNPx3V58Y=
 			</data>
 		</dict>
 		<key>Headers/MGBannerAdView.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			k/+2JpXyi2DYto9sR/p9ddLZqO0=
+			zEI3QME0nf8fjRv+wCsZue24WeY=
 			</data>
 			<key>hash2</key>
 			<data>
-			sDQIN32vicYU3ASreKiz5uDGwhiKvKhbcrwHXpuXeYQ=
+			5ZwuwYaTv59QjVkgXXWgES1dJ1pGPmzx5DqgNKYWNDg=
 			</data>
 		</dict>
 		<key>Headers/MGInterstitialAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			joTkdVl1BL8cG1/LrCj9KzI2gH4=
+			JZawBPr5WztiRKYEReqKJ2MPq0U=
 			</data>
 			<key>hash2</key>
 			<data>
-			yuvDU/rvA+1x3hjTymxKT1D+Cr45524z8pNVCL4GPB4=
+			LnpZ9dhplNUrIUVgAe8re2lsvvyS76ZxYfvR3RSIb8M=
 			</data>
 		</dict>
 		<key>Headers/MGRewardedAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			tL+KbYOvLn73zucJXFH8jcHl9vA=
+			F05faEzO22G+HvjOzbsqxL1riEQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			t2qJ5u5Pkbc79ZRiiPrBmT3bQw53/WaPUUMGHS1Ho/w=
+			OWrtNv1kYUTLC95SkzaMhmtTnZQRYjybvL3nDkoQqEs=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -529,6 +503,72 @@
 			<key>hash2</key>
 			<data>
 			Y8+hz24tdzFNv64gYMTH5J4Ibd1OHyA1lbo5AFE3NIk=
+			</data>
+		</dict>
+		<key>TapjoyResources.bundle/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			1Ob/qzPgpyje9nh6AHDZsEw2zYM=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ce7YpCawGFCOoEoCyikgMcoPmvHCT/cAZMhZTc7Fk6c=
+			</data>
+		</dict>
+		<key>TapjoyResources.bundle/TJCLoadingView.nib/objects-13.0+.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			gpHw+xBfOn9XBJ5ZAi1T5e/XaR8=
+			</data>
+			<key>hash2</key>
+			<data>
+			Spnza1yzIYJiUZLHPlnyuD+4Pedvrz1G3blOC33Qal0=
+			</data>
+		</dict>
+		<key>TapjoyResources.bundle/TJCLoadingView.nib/runtime.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DZlfRQZlUKbDTSLbmsBoaO7KC+w=
+			</data>
+			<key>hash2</key>
+			<data>
+			pc0FIfxvo5OEje5ONX1kO828mB0oMfvwcv8FGlsDaG8=
+			</data>
+		</dict>
+		<key>TapjoyResources.bundle/TJCclose_button.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			o0KCZ1bHRv2TC8EpjLU4Y52OBJE=
+			</data>
+			<key>hash2</key>
+			<data>
+			UWnc0cZ+B9Sq/UmfxmxfEiO33ObLmUyvbERrqOlvzJE=
+			</data>
+		</dict>
+		<key>TapjoyResources.bundle/TJCclose_button@2x.png</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7Da3krelErau65/5GH2qW+SGLyw=
+			</data>
+			<key>hash2</key>
+			<data>
+			zp8MQ9/PcIpVeFNC1gJtENW0Vif1kGvkjQ49TR4UFms=
+			</data>
+		</dict>
+		<key>TapjoyResources.bundle/revision.txt</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			6H9AgRZSEw4atkArt5wMhJ/egqo=
+			</data>
+			<key>hash2</key>
+			<data>
+			X8z7SiyWqKcWbaa+g0uLp1XnEkLirJ2eIJugfcvIkQ8=
 			</data>
 		</dict>
 	</dict>
