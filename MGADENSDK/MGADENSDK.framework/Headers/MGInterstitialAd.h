@@ -36,22 +36,22 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
-// 插页广告加载成功
+/// 插页广告加载成功
 - (void)interstitialAdDidLoad:(MGInterstitialAd *)interstitialAd;
 
-// 插页广告加载失败
+/// 插页广告加载失败
 - (void)interstitialAd:(MGInterstitialAd *)interstitialAd didFailWithError:(NSError *)error;
 
-// 插页广告将要被关闭
+/// 插页广告将要被关闭
 - (void)interstitialAdWillClose:(MGInterstitialAd *)interstitialAd;
 
-// 插页广告已经被关闭
+/// 插页广告已经被关闭
 - (void)interstitialAdDidClose:(MGInterstitialAd *)interstitialAd;
 
-// 插页广告被点击
+/// 插页广告被点击
 - (void)interstitialAdDidClick:(MGInterstitialAd *)interstitialAd;
 
-// 插页广告被展示
+/// 插页广告被展示
 - (void)interstitialPresentScreen:(MGInterstitialAd *)interstitialAd;
 
 @end

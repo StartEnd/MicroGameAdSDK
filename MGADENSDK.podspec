@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '0.6.0'
+  s.version          = '0.7.0'
   # 简介
   s.summary          = '微游戏广告SDK'
 
@@ -53,9 +53,12 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'Foundation'
   # s.static_framework = true
   # 开源库依赖库
-  s.dependency 'Google-Mobile-Ads-SDK', '=7.55.1'
-  
-  # Facebook支持,保持版本一致
-  s.dependency 'FBAudienceNetwork', '=5.7.0'
-  s.dependency 'GoogleMobileAdsMediationFacebook', '=5.7.0'
+  s.dependency 'Google-Mobile-Ads-SDK'
+  s.dependency 'GoogleMobileAdsMediationFacebook'
+  s.dependency 'GoogleMobileAdsMediationUnity'
+  s.dependency 'GoogleMobileAdsMediationIronSource'
+  s.dependency 'GoogleMobileAdsMediationAppLovin'
+  s.dependency 'GoogleMobileAdsMediationVungle'
+  s.dependency 'GoogleMobileAdsMediationTapjoy'
+
 end

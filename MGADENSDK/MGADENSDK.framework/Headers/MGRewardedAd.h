@@ -56,12 +56,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// 奖励广告被关闭
 - (void)rewardedAdDidClose:(MGRewardedAd *)rewardAd;
 
-/// 奖励广告被点击
-- (void)rewardedAdDidClick:(MGRewardedAd *)rewardAd;
-
 /// 奖励广告被展示
 - (void)rewardedAdPresentScreen:(MGRewardedAd *)rewardedAd;
 
+/// 奖励广告展示失败
+- (void)rewardedAd:(MGRewardedAd *)rewardedAd didFailToPresentWithError:(NSError *)error;
 
 @end
 
