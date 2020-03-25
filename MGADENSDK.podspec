@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '0.8.0'
+  s.version          = '1.0.0'
   # 简介
   s.summary          = '微游戏广告SDK'
 
@@ -49,6 +49,8 @@ TODO: Add long description of the pod here.
   s.vendored_frameworks ='MGADENSDK/MGADENSDK.framework'
 
   s.public_header_files = 'Pod/Classes/**/*.h'
+  
+  s.prefix_header_contents = '#define MGADENSDKCOCOAPODS'
   # 依赖系统库
   # s.frameworks = 'UIKit', 'Foundation'
   # s.static_framework = true

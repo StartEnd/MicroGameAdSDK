@@ -22,6 +22,7 @@
 /// 联运SDK登陆后的用户id
 @property(nonatomic, copy, nullable) NSString   *userID;
 
+
 + (nonnull MGADMobileAds *)sharedInstance;
 
 /// 开启广告SDK
