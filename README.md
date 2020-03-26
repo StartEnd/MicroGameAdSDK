@@ -27,3 +27,4 @@ Mr.Song, 996982027@qq.com
 ## License
 
 MGADENSDK is available under the MIT license. See the LICENSE file for more info.
+
