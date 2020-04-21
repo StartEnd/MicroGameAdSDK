@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '1.0.2'
+  s.version          = '1.0.3'
   # 简介
   s.summary          = '微游戏广告SDK'
 
@@ -59,7 +59,8 @@ TODO: Add long description of the pod here.
   s.dependency 'GoogleMobileAdsMediationFacebook'
   s.dependency 'GoogleMobileAdsMediationUnity'
   s.dependency 'GoogleMobileAdsMediationIronSource'
-  s.dependency 'GoogleMobileAdsMediationAppLovin'
+  # s.dependency 'GoogleMobileAdsMediationAppLovin'
+  s.dependency 'AppLovinSDK'
   s.dependency 'GoogleMobileAdsMediationVungle'
   s.dependency 'GoogleMobileAdsMediationTapjoy'
 
