@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   # 简介
   s.summary          = '微游戏广告SDK'
 
