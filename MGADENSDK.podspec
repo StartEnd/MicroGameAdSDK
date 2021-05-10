@@ -38,7 +38,10 @@ TODO: Add long description of the pod here.
 
   # 开源库最低支持版本
   s.ios.deployment_target = '9.0'
-
+  
+  s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
+  
   #源库资源文件
   #s.source_files = 'MGADENSDK/Classes/**/*'
   
