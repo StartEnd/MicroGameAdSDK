@@ -72,7 +72,8 @@ typedef NS_ENUM (NSInteger,MGBannerType) {
 /// 横幅广告被点击
 - (void)bannerAdViewDidClick:(MGBannerAdView *)bannerAdView;
 
-
+/// 横幅广告被关闭
+- (void)bannerAdDidClose:(MGBannerAdView *)bannerAdView;
 
 @end
 
