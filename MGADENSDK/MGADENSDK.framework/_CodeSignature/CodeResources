@@ -212,6 +212,10 @@
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>GoogleService-Info.plist</key>
+		<data>
+		P7YoAhAeq8T+pjmtCTL3BQsQ/uk=
+		</data>
 		<key>Headers/MGADENSDK.h</key>
 		<data>
 		3FxDtB1h83FPETKFV5bFEVPYgKo=
@@ -238,7 +242,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		mn0ASxMc1YzDCylY01DOftGOONQ=
+		05LluNz15YYGsarXGX8HgsTPURw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -724,6 +728,17 @@
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>GoogleService-Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			P7YoAhAeq8T+pjmtCTL3BQsQ/uk=
+			</data>
+			<key>hash2</key>
+			<data>
+			S2LMrwUiilXHHJXeeyHeZwnGGvXVp3Wa3+8PpkBRzmo=
+			</data>
 		</dict>
 		<key>Headers/MGADENSDK.h</key>
 		<dict>
