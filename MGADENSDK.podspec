@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   # 库名称
   s.name             = 'MGADENSDK'
   # 版本
-  s.version          = '1.0.13'
+  s.version          = '1.0.14'
   # 简介
   s.summary          = '微游戏广告SDK'
 
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   # 开源库最低支持版本
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
   
   s.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
@@ -68,5 +68,4 @@ TODO: Add long description of the pod here.
   # s.dependency 'GoogleMobileAdsMediationVungle'
   # s.dependency 'GoogleMobileAdsMediationTapjoy'
   s.dependency 'GoogleMobileAdsMediationChartboost'
-  s.dependency 'Firebase/Analytics'
 end

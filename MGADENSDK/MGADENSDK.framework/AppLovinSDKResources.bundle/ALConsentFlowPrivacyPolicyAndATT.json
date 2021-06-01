@@ -4,11 +4,11 @@
         "is_initial_state": true,
         "type": "alert",
         "title": {
-            "key": "TOS_AND_PP_TITLE",
+            "key": "PP_TITLE",
             "replacements": ["<APP_NAME>"]
         },
         "message": {
-            "key": "TOS_AND_PP_MESSAGE"
+            "key": "AGREE_MESSAGE"
         },
         "transitions": [{
             "title": {
@@ -17,9 +17,6 @@
             "style": "default",
             "destination_state_id": 12
         }]
-    }, {
-        "id": 10,
-        "type": "tos"
     }, {
         "id": 11,
         "type": "pp"
